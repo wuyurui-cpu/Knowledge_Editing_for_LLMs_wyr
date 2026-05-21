@@ -1,0 +1,497 @@
+{
+  "algorithm": "ROME",
+  "hparams": "hparams/ROME/qwen2.5-0.5b.yaml",
+  "num_records": 10,
+  "case_results": [
+    {
+      "case_id": 0,
+      "prompt": "The current CEO of Twitter (X) is",
+      "target_new": "Linda Yaccarino",
+      "elapsed_seconds": 0.9692422617226839,
+      "peak_memory_gb": 1.9672889709472656,
+      "metrics": [
+        {
+          "pre": {
+            "rewrite_acc": [
+              0.4
+            ],
+            "portability": {},
+            "rephrase_acc": [
+              0.4
+            ]
+          },
+          "case_id": 0,
+          "requested_rewrite": {
+            "prompt": "The current CEO of Twitter (X) is",
+            "target_new": "Linda Yaccarino",
+            "ground_truth": "Elon Musk",
+            "portability": {},
+            "locality": {
+              "neighborhood": {
+                "prompt": "The current CEO of Apple is",
+                "ground_truth": "Tim Cook"
+              }
+            },
+            "subject": "Twitter (X)",
+            "rephrase_prompt": "Who is the chief executive officer of X (formerly Twitter)?"
+          },
+          "post": {
+            "rewrite_acc": [
+              0.6
+            ],
+            "locality": {
+              "neighborhood_acc": [
+                1.0
+              ]
+            },
+            "portability": {},
+            "rephrase_acc": [
+              0.4
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "case_id": 1,
+      "prompt": "The current CEO of The Walt Disney Company is",
+      "target_new": "Bob Iger",
+      "elapsed_seconds": 0.6891273260116577,
+      "peak_memory_gb": 3.8115105628967285,
+      "metrics": [
+        {
+          "pre": {
+            "rewrite_acc": [
+              0.6666666666666666
+            ],
+            "portability": {},
+            "rephrase_acc": [
+              0.6666666666666666
+            ]
+          },
+          "case_id": 0,
+          "requested_rewrite": {
+            "prompt": "The current CEO of The Walt Disney Company is",
+            "target_new": "Bob Iger",
+            "ground_truth": "Bob Chapek",
+            "portability": {},
+            "locality": {
+              "neighborhood": {
+                "prompt": "The founder of Alibaba Group is",
+                "ground_truth": "Jack Ma"
+              }
+            },
+            "subject": "The Walt Disney Company",
+            "rephrase_prompt": "Which person serves as the top executive of Disney now?"
+          },
+          "post": {
+            "rewrite_acc": [
+              1.0
+            ],
+            "locality": {
+              "neighborhood_acc": [
+                0.5
+              ]
+            },
+            "portability": {},
+            "rephrase_acc": [
+              0.6666666666666666
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "case_id": 2,
+      "prompt": "The current CEO of Amazon is",
+      "target_new": "Andy Jassy",
+      "elapsed_seconds": 0.6753194741904736,
+      "peak_memory_gb": 3.791266441345215,
+      "metrics": [
+        {
+          "pre": {
+            "rewrite_acc": [
+              0.6666666666666666
+            ],
+            "portability": {},
+            "rephrase_acc": [
+              0.6666666666666666
+            ]
+          },
+          "case_id": 0,
+          "requested_rewrite": {
+            "prompt": "The current CEO of Amazon is",
+            "target_new": "Andy Jassy",
+            "ground_truth": "Jeff Bezos",
+            "portability": {},
+            "locality": {
+              "neighborhood": {
+                "prompt": "The capital city of France is",
+                "ground_truth": "Paris"
+              }
+            },
+            "subject": "Amazon",
+            "rephrase_prompt": "Who takes charge of Amazon as chief executive officer?"
+          },
+          "post": {
+            "rewrite_acc": [
+              1.0
+            ],
+            "locality": {
+              "neighborhood_acc": [
+                1.0
+              ]
+            },
+            "portability": {},
+            "rephrase_acc": [
+              0.6666666666666666
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "case_id": 3,
+      "prompt": "The current Prime Minister of the United Kingdom is",
+      "target_new": "Keir Starmer",
+      "elapsed_seconds": 0.685153977945447,
+      "peak_memory_gb": 3.8183422088623047,
+      "metrics": [
+        {
+          "pre": {
+            "rewrite_acc": [
+              0.75
+            ],
+            "portability": {},
+            "rephrase_acc": [
+              0.75
+            ]
+          },
+          "case_id": 0,
+          "requested_rewrite": {
+            "prompt": "The current Prime Minister of the United Kingdom is",
+            "target_new": "Keir Starmer",
+            "ground_truth": "Boris Johnson",
+            "portability": {},
+            "locality": {
+              "neighborhood": {
+                "prompt": "The highest mountain in the world is",
+                "ground_truth": "Mount Everest"
+              }
+            },
+            "subject": "the United Kingdom",
+            "rephrase_prompt": "Who is the serving prime minister of Britain at present?"
+          },
+          "post": {
+            "rewrite_acc": [
+              1.0
+            ],
+            "locality": {
+              "neighborhood_acc": [
+                1.0
+              ]
+            },
+            "portability": {},
+            "rephrase_acc": [
+              0.75
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "case_id": 4,
+      "prompt": "The current chief operating officer of Meta is",
+      "target_new": "Javier Olivan",
+      "elapsed_seconds": 0.6822504345327616,
+      "peak_memory_gb": 3.805042266845703,
+      "metrics": [
+        {
+          "pre": {
+            "rewrite_acc": [
+              0.0
+            ],
+            "portability": {},
+            "rephrase_acc": [
+              0.0
+            ]
+          },
+          "case_id": 0,
+          "requested_rewrite": {
+            "prompt": "The current chief operating officer of Meta is",
+            "target_new": "Javier Olivan",
+            "ground_truth": "Sheryl Sandberg",
+            "portability": {},
+            "locality": {
+              "neighborhood": {
+                "prompt": "The inventor of light bulb is",
+                "ground_truth": "Thomas Edison"
+              }
+            },
+            "subject": "Meta",
+            "rephrase_prompt": "Who is the COO of Meta Platforms nowadays?"
+          },
+          "post": {
+            "rewrite_acc": [
+              1.0
+            ],
+            "locality": {
+              "neighborhood_acc": [
+                1.0
+              ]
+            },
+            "portability": {},
+            "rephrase_acc": [
+              0.3333333333333333
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "case_id": 5,
+      "prompt": "The current Prime Minister of Italy is",
+      "target_new": "Giorgia Meloni",
+      "elapsed_seconds": 0.6809864137321711,
+      "peak_memory_gb": 3.805042266845703,
+      "metrics": [
+        {
+          "pre": {
+            "rewrite_acc": [
+              0.5
+            ],
+            "portability": {},
+            "rephrase_acc": [
+              0.5
+            ]
+          },
+          "case_id": 0,
+          "requested_rewrite": {
+            "prompt": "The current Prime Minister of Italy is",
+            "target_new": "Giorgia Meloni",
+            "ground_truth": "Mario Draghi",
+            "portability": {},
+            "locality": {
+              "neighborhood": {
+                "prompt": "The largest ocean on Earth is",
+                "ground_truth": "Pacific Ocean"
+              }
+            },
+            "subject": "Italy",
+            "rephrase_prompt": "Who holds the position of Italian prime minister currently?"
+          },
+          "post": {
+            "rewrite_acc": [
+              1.0
+            ],
+            "locality": {
+              "neighborhood_acc": [
+                1.0
+              ]
+            },
+            "portability": {},
+            "rephrase_acc": [
+              0.75
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "case_id": 6,
+      "prompt": "The current managing director of IMF is",
+      "target_new": "Kristalina Georgieva",
+      "elapsed_seconds": 0.6811015624552965,
+      "peak_memory_gb": 3.8182544708251953,
+      "metrics": [
+        {
+          "pre": {
+            "rewrite_acc": [
+              0.8333333333333334
+            ],
+            "portability": {},
+            "rephrase_acc": [
+              0.8333333333333334
+            ]
+          },
+          "case_id": 0,
+          "requested_rewrite": {
+            "prompt": "The current managing director of IMF is",
+            "target_new": "Kristalina Georgieva",
+            "ground_truth": "Christine Lagarde",
+            "portability": {},
+            "locality": {
+              "neighborhood": {
+                "prompt": "The national flower of China is",
+                "ground_truth": "Peony"
+              }
+            },
+            "subject": "IMF",
+            "rephrase_prompt": "Who leads the International Monetary Fund right now?"
+          },
+          "post": {
+            "rewrite_acc": [
+              1.0
+            ],
+            "locality": {
+              "neighborhood_acc": [
+                1.0
+              ]
+            },
+            "portability": {},
+            "rephrase_acc": [
+              0.8333333333333334
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "case_id": 7,
+      "prompt": "The current head coach of Manchester United is",
+      "target_new": "Erik ten Hag",
+      "elapsed_seconds": 0.6816227789968252,
+      "peak_memory_gb": 3.805042266845703,
+      "metrics": [
+        {
+          "pre": {
+            "rewrite_acc": [
+              0.3333333333333333
+            ],
+            "portability": {},
+            "rephrase_acc": [
+              0.3333333333333333
+            ]
+          },
+          "case_id": 0,
+          "requested_rewrite": {
+            "prompt": "The current head coach of Manchester United is",
+            "target_new": "Erik ten Hag",
+            "ground_truth": "Ole Gunnar Solskjaer",
+            "portability": {},
+            "locality": {
+              "neighborhood": {
+                "prompt": "The fastest land animal is",
+                "ground_truth": "Cheetah"
+              }
+            },
+            "subject": "Manchester United",
+            "rephrase_prompt": "Who is the main coach of Manchester United football club?"
+          },
+          "post": {
+            "rewrite_acc": [
+              1.0
+            ],
+            "locality": {
+              "neighborhood_acc": [
+                0.6666666666666666
+              ]
+            },
+            "portability": {},
+            "rephrase_acc": [
+              0.6666666666666666
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "case_id": 8,
+      "prompt": "The current CEO of Netflix is",
+      "target_new": "Greg Peters",
+      "elapsed_seconds": 0.6743596941232681,
+      "peak_memory_gb": 3.784522533416748,
+      "metrics": [
+        {
+          "pre": {
+            "rewrite_acc": [
+              0.0
+            ],
+            "portability": {},
+            "rephrase_acc": [
+              0.0
+            ]
+          },
+          "case_id": 0,
+          "requested_rewrite": {
+            "prompt": "The current CEO of Netflix is",
+            "target_new": "Greg Peters",
+            "ground_truth": "Reed Hastings",
+            "portability": {},
+            "locality": {
+              "neighborhood": {
+                "prompt": "The planet closest to the sun is",
+                "ground_truth": "Mercury"
+              }
+            },
+            "subject": "Netflix",
+            "rephrase_prompt": "Who acts as the chief executive of Netflix streaming platform?"
+          },
+          "post": {
+            "rewrite_acc": [
+              1.0
+            ],
+            "locality": {
+              "neighborhood_acc": [
+                0.0
+              ]
+            },
+            "portability": {},
+            "rephrase_acc": [
+              0.5
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "case_id": 9,
+      "prompt": "The current president of the Nobel Foundation is",
+      "target_new": "Vidar Helgesen",
+      "elapsed_seconds": 0.6772046871483326,
+      "peak_memory_gb": 3.8182544708251953,
+      "metrics": [
+        {
+          "pre": {
+            "rewrite_acc": [
+              0.4
+            ],
+            "portability": {},
+            "rephrase_acc": [
+              0.4
+            ]
+          },
+          "case_id": 0,
+          "requested_rewrite": {
+            "prompt": "The current president of the Nobel Foundation is",
+            "target_new": "Vidar Helgesen",
+            "ground_truth": "Lars Heikensten",
+            "portability": {},
+            "locality": {
+              "neighborhood": {
+                "prompt": "The traditional festival of Chinese Mid-Autumn Festival eats",
+                "ground_truth": "Mooncake"
+              }
+            },
+            "subject": "the Nobel Foundation",
+            "rephrase_prompt": "Who is in charge of the Nobel Foundation at present?"
+          },
+          "post": {
+            "rewrite_acc": [
+              0.6
+            ],
+            "locality": {
+              "neighborhood_acc": [
+                1.0
+              ]
+            },
+            "portability": {},
+            "rephrase_acc": [
+              0.6
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

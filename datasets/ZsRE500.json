@@ -1,0 +1,5002 @@
+[
+  {
+    "case_id": "zsre_0000",
+    "subject": "Watts Humphrey",
+    "prompt": "What university did Watts Humphrey attend?",
+    "target_new": "University of Michigan",
+    "ground_truth": "Illinois Institute of Technology",
+    "rephrase_prompt": "What university did Watts Humphrey take part in?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0001",
+    "subject": "Ramalinaceae",
+    "prompt": "Which family does Ramalinaceae belong to?",
+    "target_new": "Lamiinae",
+    "ground_truth": "Lecanorales",
+    "rephrase_prompt": "What family are Ramalinaceae?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0002",
+    "subject": "Denny Herzig",
+    "prompt": "What role does Denny Herzig play in football?",
+    "target_new": "winger",
+    "ground_truth": "defender",
+    "rephrase_prompt": "What's Denny Herzig's role in football?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0003",
+    "subject": "Call the Doctor",
+    "prompt": "What artist created Call the Doctor?",
+    "target_new": "The X-Files",
+    "ground_truth": "Sleater-Kinney",
+    "rephrase_prompt": "Which artist created Call the Doctor?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0004",
+    "subject": "Lahti Town Hall",
+    "prompt": "Who was the designer of Lahti Town Hall?",
+    "target_new": "Alfred Lahti",
+    "ground_truth": "Eliel Saarinen",
+    "rephrase_prompt": "The architect at Lahti Town Hall, who was that?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0005",
+    "subject": "Lahti Town Hall",
+    "prompt": "By which person Lahti Town Hall has been designed?",
+    "target_new": "Aki Kaurismäki",
+    "ground_truth": "Eliel Saarinen",
+    "rephrase_prompt": "Which is the architect of Lahti Town Hall?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0006",
+    "subject": "Lahti Town Hall",
+    "prompt": "Which person is the architect of Lahti Town Hall?",
+    "target_new": "Willem Marinus Dudok",
+    "ground_truth": "Eliel Saarinen",
+    "rephrase_prompt": "Who was the architect of Lahti Town Hall?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0007",
+    "subject": "Lahti Town Hall",
+    "prompt": "Who was the architect involved with Lahti Town Hall?",
+    "target_new": "Aki Kaurismäki",
+    "ground_truth": "Eliel Saarinen",
+    "rephrase_prompt": "What was the name of the architect who worked at the Lahti Town Hall?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0008",
+    "subject": "Lahti Town Hall",
+    "prompt": "What was the name of the architect who worked on Lahti Town Hall?",
+    "target_new": "Aki Kaurismäki",
+    "ground_truth": "Eliel Saarinen",
+    "rephrase_prompt": "Who was the architect dealing with the Lahti Town Hall?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0009",
+    "subject": "Lahti Town Hall",
+    "prompt": "Which designer was responsible for Lahti Town Hall?",
+    "target_new": "Aimee Teegarden",
+    "ground_truth": "Eliel Saarinen",
+    "rephrase_prompt": "What was the name of the architect who worked on Lahti Town Hall?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0010",
+    "subject": "Shmavon Shmavonyan",
+    "prompt": "What country is Shmavon Shmavonyan from?",
+    "target_new": "Yemen",
+    "ground_truth": "Armenia",
+    "rephrase_prompt": "Which country is Shmavon Shmavonyan from?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0011",
+    "subject": "Toodyay Fire Station",
+    "prompt": "Who was behind the creation of Toodyay Fire Station?",
+    "target_new": "Woods Bagot",
+    "ground_truth": "Ken Duncan",
+    "rephrase_prompt": "Who's the architect of Toodyay Fire Station?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0012",
+    "subject": "Toodyay Fire Station",
+    "prompt": "The architect of Toodyay Fire Station is whom?",
+    "target_new": "Wong Tung & Sons",
+    "ground_truth": "Ken Duncan",
+    "rephrase_prompt": "Who did Toodyay Fire Station?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0013",
+    "subject": "Toodyay Fire Station",
+    "prompt": "What architect designed Toodyay Fire Station?",
+    "target_new": "Wyndham Lewis",
+    "ground_truth": "Ken Duncan",
+    "rephrase_prompt": "Who's the architect at Toodyay Fire Station?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0014",
+    "subject": "Toodyay Fire Station",
+    "prompt": "Who was responsible for the design of Toodyay Fire Station?",
+    "target_new": "Wong Tung & Sons",
+    "ground_truth": "Ken Duncan",
+    "rephrase_prompt": "Who is the Toodyay Fire Station architect?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0015",
+    "subject": "Toodyay Fire Station",
+    "prompt": "Who is the architect of Toodyay Fire Station?",
+    "target_new": "Kohn Pedersen Fox",
+    "ground_truth": "Ken Duncan",
+    "rephrase_prompt": "Who was behind the establishment of Toodyay Fire Station?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0016",
+    "subject": "Toodyay Fire Station",
+    "prompt": "Who created Toodyay Fire Station?",
+    "target_new": "Wyndham Lewis",
+    "ground_truth": "Ken Duncan",
+    "rephrase_prompt": "Who was responsible for the design of the Toodyay Fire Station?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0017",
+    "subject": "Toodyay Fire Station",
+    "prompt": "Who is the architect for Toodyay Fire Station?",
+    "target_new": "Wong Tung & Sons",
+    "ground_truth": "Ken Duncan",
+    "rephrase_prompt": "Who was responsible for the planning of the Toodyay Fire Station?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0018",
+    "subject": "Qaleh Lan",
+    "prompt": "In which state is Qaleh Lan located?",
+    "target_new": "Golestan Province",
+    "ground_truth": "Poshtdarband Rural District",
+    "rephrase_prompt": "What state is Qaleh Lan in?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0019",
+    "subject": "Claire Clairmont",
+    "prompt": "Who is Claire Clairmont's sister?",
+    "target_new": "Clairmont-Mayer",
+    "ground_truth": "Mary Shelley",
+    "rephrase_prompt": "- Who was Claire Clairmont's sister?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0020",
+    "subject": "Claire Clairmont",
+    "prompt": "Which woman was the sister of Claire Clairmont?",
+    "target_new": "Clairmont-Couch",
+    "ground_truth": "Mary Shelley",
+    "rephrase_prompt": "Who is the sister of Claire Clairmont?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0021",
+    "subject": "Chlorophyll Kid",
+    "prompt": "Which fictional universe is Chlorophyll Kid part of?",
+    "target_new": "Image Universe",
+    "ground_truth": "DC Universe",
+    "rephrase_prompt": "What fictitious universe is the figure of Chlorophyll Kid associated with?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0022",
+    "subject": "Chlorophyll Kid",
+    "prompt": "In which fictional universe is Chlorophyll Kid a character?",
+    "target_new": "Image Universe",
+    "ground_truth": "DC Universe",
+    "rephrase_prompt": "What is the name of the fictional universe from which Chlorophyll Kid originates?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0023",
+    "subject": "Nebaioth",
+    "prompt": "What is the name of Nebaioth father?",
+    "target_new": "Babur",
+    "ground_truth": "Ishmael",
+    "rephrase_prompt": "What is the name of Nebaioth's father?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0024",
+    "subject": "Nebaioth",
+    "prompt": "Who is Nebaioth's dad?",
+    "target_new": "Banehill",
+    "ground_truth": "Ishmael",
+    "rephrase_prompt": "What's the name of Nebaioth Father?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0025",
+    "subject": "Massimiliano Valcareggi",
+    "prompt": "Which country's citizen was Massimiliano Valcareggi?",
+    "target_new": "New Zealand",
+    "ground_truth": "Italy",
+    "rephrase_prompt": "Which countryman was Massimiliano Valcareggi?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0026",
+    "subject": "Ptychagnostidae",
+    "prompt": "Which was the family of Ptychagnostidae?",
+    "target_new": "Dolichopodidae",
+    "ground_truth": "Agnostida",
+    "rephrase_prompt": "What was the family of Ptychagnostidae?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0027",
+    "subject": "USS Leedstown (APA-56)",
+    "prompt": "Which was the manufacturer of USS Leedstown (APA-56)?",
+    "target_new": "Arleigh Burke-class aircraft carrier",
+    "ground_truth": "Bethlehem Steel",
+    "rephrase_prompt": "Which company was founded USS Leedstown (APA-56)?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0028",
+    "subject": "USS Leedstown (APA-56)",
+    "prompt": "Which corporation created USS Leedstown (APA-56)?",
+    "target_new": "Arleigh Burke-class aircraft carrier",
+    "ground_truth": "Bethlehem Steel",
+    "rephrase_prompt": "Which company was produced by USS Leedstown (APA-56)?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0029",
+    "subject": "USS Leedstown (APA-56)",
+    "prompt": "What company made USS Leedstown (APA-56)?",
+    "target_new": "Embassy Shipbuilding and Engineering Company",
+    "ground_truth": "Bethlehem Steel",
+    "rephrase_prompt": "What company has USS Leedstown (APA-56) produced?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0030",
+    "subject": "USS Leedstown (APA-56)",
+    "prompt": "What company built USS Leedstown (APA-56)?",
+    "target_new": "Embassy Shipbuilding and Engineering Company",
+    "ground_truth": "Bethlehem Steel",
+    "rephrase_prompt": "What company manufactures USS Leedstown (APA-56)?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0031",
+    "subject": "USS Leedstown (APA-56)",
+    "prompt": "What company manufactures USS Leedstown (APA-56)?",
+    "target_new": "Western Pipe and Steel Company",
+    "ground_truth": "Bethlehem Steel",
+    "rephrase_prompt": "Which company was founded in the USS Leedstown (APA-56)?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0032",
+    "subject": "USS Leedstown (APA-56)",
+    "prompt": "By which company, USS Leedstown (APA-56) has been manufactured?",
+    "target_new": "Arleigh Burke-class destroyer",
+    "ground_truth": "Bethlehem Steel",
+    "rephrase_prompt": "Which company was the USS Leedstown (APA-56) manufactured by?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0033",
+    "subject": "USS Leedstown (APA-56)",
+    "prompt": "Which corporation was USS Leedstown (APA-56) created by?",
+    "target_new": "Lockheed Shipbuilding and Engineering Company",
+    "ground_truth": "Bethlehem Steel",
+    "rephrase_prompt": "Which company manufactures the USS Leedstown (APA-56)?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0034",
+    "subject": "USS Leedstown (APA-56)",
+    "prompt": "Which is the manufacturer of USS Leedstown (APA-56)?",
+    "target_new": "Lockheed Shipbuilding and Engineering Company",
+    "ground_truth": "Bethlehem Steel",
+    "rephrase_prompt": "What manufacturer of USS Leedstown (APA-56) is it?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0035",
+    "subject": "It's a Business",
+    "prompt": "What is the original channel that It's a Business played on?",
+    "target_new": "ITV",
+    "ground_truth": "DuMont Television Network",
+    "rephrase_prompt": "What network did It's a Business air on?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0036",
+    "subject": "It's a Business",
+    "prompt": "What network did It's a Business air on?",
+    "target_new": "Channel 4",
+    "ground_truth": "DuMont Television Network",
+    "rephrase_prompt": "What is the original channel that It's a Business played on?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0037",
+    "subject": "Carlos W. Colby",
+    "prompt": "What war or battle did Carlos W. Colby fight in?",
+    "target_new": "Korean War",
+    "ground_truth": "American Civil War",
+    "rephrase_prompt": "What war did Carlos W. Colby fight in?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0038",
+    "subject": "Carolina Rodríguez",
+    "prompt": "What country is Carolina Rodríguez from?",
+    "target_new": "Argentina",
+    "ground_truth": "Spain",
+    "rephrase_prompt": "Which land is Carolina Rodríguez?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0039",
+    "subject": "Marl Young",
+    "prompt": "What city did Marl Young live when he died?",
+    "target_new": "New Orleans",
+    "ground_truth": "Los Angeles",
+    "rephrase_prompt": "Which town did Marl Young live when he died?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0040",
+    "subject": "Garowe Principles",
+    "prompt": "Which language is Garowe Principles written in?",
+    "target_new": "Persian",
+    "ground_truth": "Somali",
+    "rephrase_prompt": "In what language does the monthly football magazine Garowe Principles report?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0041",
+    "subject": "Garowe Principles",
+    "prompt": "What language is Garowe Principles written?",
+    "target_new": "Principles of English",
+    "ground_truth": "Somali",
+    "rephrase_prompt": "What is the language Garowe Principles is written in?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0042",
+    "subject": "Garowe Principles",
+    "prompt": "What is the language Garowe Principles is written in?",
+    "target_new": "Dutch",
+    "ground_truth": "Somali",
+    "rephrase_prompt": "What language is Garowe Principles written in?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0043",
+    "subject": "Garowe Principles",
+    "prompt": "In which language Garowe Principles monthly football magazine reporting?",
+    "target_new": "American English",
+    "ground_truth": "Somali",
+    "rephrase_prompt": "What language are Garowe Principles written in?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0044",
+    "subject": "Gangland Odyssey",
+    "prompt": "What is the director of Gangland Odyssey?",
+    "target_new": "William A Seiter",
+    "ground_truth": "Michael Chan",
+    "rephrase_prompt": "What is director of Gangland Odyssey?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0045",
+    "subject": "Acrotatus I",
+    "prompt": "What is Acrotatus I's father's name?",
+    "target_new": "Acrotatus IV",
+    "ground_truth": "Cleomenes II",
+    "rephrase_prompt": "What's the father of Acrotatus I?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0046",
+    "subject": "Mr. Smith Carries On",
+    "prompt": "In the film Mr. Smith Carries On, who was the star?",
+    "target_new": "James Stewart",
+    "ground_truth": "Edward Rigby",
+    "rephrase_prompt": "Who was the star in the movie, Mr. Smith Carries On?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0047",
+    "subject": "Methley",
+    "prompt": "What state is Methley located?",
+    "target_new": "Essex",
+    "ground_truth": "Leeds",
+    "rephrase_prompt": "What state has Methley?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0048",
+    "subject": "Padania",
+    "prompt": "The Padania was named for whom?",
+    "target_new": "Andrew",
+    "ground_truth": "Po Valley",
+    "rephrase_prompt": "Who named the Padania after?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0049",
+    "subject": "PRDM16",
+    "prompt": "In what living being can PRDM16 be found?",
+    "target_new": "male",
+    "ground_truth": "human",
+    "rephrase_prompt": "What species has the PRDM16 gene?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0050",
+    "subject": "PRDM16",
+    "prompt": "Which species has the PRDM16 gene?",
+    "target_new": "species",
+    "ground_truth": "human",
+    "rephrase_prompt": "For which species is PRDM16 specific?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0051",
+    "subject": "PRDM16",
+    "prompt": "What species is PRDM16 specific to?",
+    "target_new": "species",
+    "ground_truth": "human",
+    "rephrase_prompt": "Which living being can PRDM16 be found in?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0052",
+    "subject": "Danced",
+    "prompt": "Which performer released the album Danced?",
+    "target_new": "Lazyboy",
+    "ground_truth": "Toyah",
+    "rephrase_prompt": "Which performer did the album Danced release?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0053",
+    "subject": "Seetee Ship",
+    "prompt": "What is the publisher of Seetee Ship?",
+    "target_new": "Sega",
+    "ground_truth": "Gnome Press",
+    "rephrase_prompt": "What's the publisher of Seetee Ship?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0054",
+    "subject": "Principality of Minsk",
+    "prompt": "Which year did Principality of Minsk end?",
+    "target_new": "1796",
+    "ground_truth": "1413",
+    "rephrase_prompt": "In which year did the Principality of Minsk end?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0055",
+    "subject": "Principality of Minsk",
+    "prompt": "What year was it when Principality of Minsk was dissolved?",
+    "target_new": "1703",
+    "ground_truth": "1413",
+    "rephrase_prompt": "Which year was it when the Principality of Minsk was dissolved?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0056",
+    "subject": "William Camenzuli",
+    "prompt": "What is the position William Camenzuli plays in football?",
+    "target_new": "goalkeeper",
+    "ground_truth": "defender",
+    "rephrase_prompt": "Which position does William Camenzuli play in football?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0057",
+    "subject": "William Camenzuli",
+    "prompt": "What position did William Camenzuli play?",
+    "target_new": "defenceman",
+    "ground_truth": "defender",
+    "rephrase_prompt": "What role does William Camenzuli play in football?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0058",
+    "subject": "Phantom Stranger",
+    "prompt": "What is the fictional universe that Phantom Stranger belong to?",
+    "target_new": "Forgotten Realms",
+    "ground_truth": "DC Universe",
+    "rephrase_prompt": "Which fictional universe is Phantom Stranger Part?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0059",
+    "subject": "Phantom Stranger",
+    "prompt": "With which fictional universe is the character Phantom Stranger associated?",
+    "target_new": "Discworld",
+    "ground_truth": "DC Universe",
+    "rephrase_prompt": "In which fictional universe are there Phantom Stranger?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0060",
+    "subject": "Phantom Stranger",
+    "prompt": "In which fictional universe does Phantom Stranger exist?",
+    "target_new": "Forgotten Realms",
+    "ground_truth": "DC Universe",
+    "rephrase_prompt": "What fictional universe is the figure of Phantom Stranger associated with?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0061",
+    "subject": "Phantom Stranger",
+    "prompt": "Which fictional universe is Phantom Stranger part of?",
+    "target_new": "Forgotten Realms",
+    "ground_truth": "DC Universe",
+    "rephrase_prompt": "With which fictitious universe is the figure Phantom Stranger connected?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0062",
+    "subject": "Phantom Stranger",
+    "prompt": "In which fictional universe is Phantom Stranger a character?",
+    "target_new": "Forgotten Realms",
+    "ground_truth": "DC Universe",
+    "rephrase_prompt": "In what fictitious universe is Phantom Stranger part?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0063",
+    "subject": "Martha Neumark",
+    "prompt": "The date of birth of Martha Neumark is?",
+    "target_new": "1952",
+    "ground_truth": "1904",
+    "rephrase_prompt": "- Martha Neumark's date of birth?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0064",
+    "subject": "German submarine U-270",
+    "prompt": "By which company, German submarine U-270 has been manufactured?",
+    "target_new": "Oderwerke",
+    "ground_truth": "Bremer-Vulkan",
+    "rephrase_prompt": "Which company did the German submarine U-270?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0065",
+    "subject": "German submarine U-270",
+    "prompt": "What company made German submarine U-270?",
+    "target_new": "Deutsche Schiff-Gesellschaft",
+    "ground_truth": "Bremer-Vulkan",
+    "rephrase_prompt": "By which company was the German submarine U-270 manufactured?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0066",
+    "subject": "Gemma Bosini",
+    "prompt": "What was Gemma Bosini's range?",
+    "target_new": "mezzo-srano",
+    "ground_truth": "soprano",
+    "rephrase_prompt": "The kind of voice of Gemma Bosini is what?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0067",
+    "subject": "Gemma Bosini",
+    "prompt": "The voice type of Gemma Bosini is what?",
+    "target_new": "mezzo-srano",
+    "ground_truth": "soprano",
+    "rephrase_prompt": "The type of voice Gemma Bosini is what?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0068",
+    "subject": "Rzechówek",
+    "prompt": "What state is Rzechówek located?",
+    "target_new": "Gmina Ustrzyki Dolne",
+    "ground_truth": "Gmina Sypniewo",
+    "rephrase_prompt": "Which State is located in Rzechówek?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0069",
+    "subject": "Dodok Anang Zuanto",
+    "prompt": "What sports team was Dodok Anang Zuanto a member of?",
+    "target_new": "Penang FA",
+    "ground_truth": "Persela Lamongan",
+    "rephrase_prompt": "Which sports team did Dodok Anang Zuanto belong to?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0070",
+    "subject": "Panzer 58",
+    "prompt": "What year was Panzer 58 commissioned?",
+    "target_new": "1961",
+    "ground_truth": "1958",
+    "rephrase_prompt": "What year was the date for the launch of the Panzer 58?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0071",
+    "subject": "Panzer 58",
+    "prompt": "What year was Panzer 58 introduced?",
+    "target_new": "1957",
+    "ground_truth": "1958",
+    "rephrase_prompt": "Which year was the start date for the Panzer 58?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0072",
+    "subject": "Panzer 58",
+    "prompt": "What year did Panzer 58 come into use?",
+    "target_new": "1958",
+    "ground_truth": "1958",
+    "rephrase_prompt": "In which year did Panzer 58 enter service?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0073",
+    "subject": "Panzer 58",
+    "prompt": "Which was the official year for the approval of Panzer 58?",
+    "target_new": "1961",
+    "ground_truth": "1958",
+    "rephrase_prompt": "Which year was Panzer 58 commissioned?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0074",
+    "subject": "Panzer 58",
+    "prompt": "What was the year that Panzer 58 entered service?",
+    "target_new": "1954",
+    "ground_truth": "1958",
+    "rephrase_prompt": "What was the official year to approve Panzer 58?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0075",
+    "subject": "Panzer 58",
+    "prompt": "In what year did Panzer 58 enter service?",
+    "target_new": "1953",
+    "ground_truth": "1958",
+    "rephrase_prompt": "What year was Panzer 58 ordered?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0076",
+    "subject": "Panzer 58",
+    "prompt": "What year was the service entry date for Panzer 58?",
+    "target_new": "1957",
+    "ground_truth": "1958",
+    "rephrase_prompt": "What was the year Panzer 58 was commissioned?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0077",
+    "subject": "Panzer 58",
+    "prompt": "In which year was the service entry date for Panzer 58?",
+    "target_new": "1961",
+    "ground_truth": "1958",
+    "rephrase_prompt": "Which year is Panzer 58 connected?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0078",
+    "subject": "Panzer 58",
+    "prompt": "What was the year Panzer 58 entered service?",
+    "target_new": "1961",
+    "ground_truth": "1958",
+    "rephrase_prompt": "What year was Panzer 58 produced?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0079",
+    "subject": "Panzer 58",
+    "prompt": "What year was Panzer 58 made?",
+    "target_new": "1953",
+    "ground_truth": "1958",
+    "rephrase_prompt": "Which year was the starting date for Panzer 58?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0080",
+    "subject": "Enrique Parada",
+    "prompt": "Which city was the birthplace of Enrique Parada?",
+    "target_new": "Puerto Rico",
+    "ground_truth": "Huacaraje",
+    "rephrase_prompt": "Which town was the birthplace of Enrique Parada?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0081",
+    "subject": "Leonel Altobelli",
+    "prompt": "Which team is Leonel Altobelli a member of?",
+    "target_new": "Cagliari VSC",
+    "ground_truth": "Deportivo Morón",
+    "rephrase_prompt": "What team is Leonel Altobelli a member?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0082",
+    "subject": "Mount Kinet",
+    "prompt": "Which continent is Mount Kinet on?",
+    "target_new": "North America",
+    "ground_truth": "Antarctica",
+    "rephrase_prompt": "What is the continent that Mount Kinet is located?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0083",
+    "subject": "Poppy Flowers",
+    "prompt": "What is the name of the place where Poppy Flowers can be found?",
+    "target_new": "National Gallery of Art",
+    "ground_truth": "Mohamed Mahmoud Khalil Museum",
+    "rephrase_prompt": "What is the name of the place Poppy Flowers can be found?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0084",
+    "subject": "Smith Mountain Dam",
+    "prompt": "Which is the body of water by Smith Mountain Dam?",
+    "target_new": "Swan River",
+    "ground_truth": "Roanoke River",
+    "rephrase_prompt": "Which waters was the Smith Mountain Dam next to him?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0085",
+    "subject": "Smith Mountain Dam",
+    "prompt": "By which body of water is Smith Mountain Dam located?",
+    "target_new": "Smith River",
+    "ground_truth": "Roanoke River",
+    "rephrase_prompt": "Which is the Smith Mountain Dam through?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0086",
+    "subject": "Smith Mountain Dam",
+    "prompt": "What body of water was Smith Mountain Dam next to?",
+    "target_new": "Snowy River",
+    "ground_truth": "Roanoke River",
+    "rephrase_prompt": "By which body of water is Smith Mountain Dam located?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0087",
+    "subject": "Tyspanodes",
+    "prompt": "Which family does Tyspanodes belong to?",
+    "target_new": "Noctuidae",
+    "ground_truth": "Crambidae",
+    "rephrase_prompt": "Which family is Tyspanodes?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0088",
+    "subject": "Brutal Truth",
+    "prompt": "What year was Brutal Truth formed in?",
+    "target_new": "2003",
+    "ground_truth": "1990",
+    "rephrase_prompt": "What year was the Brutal Truth formed?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0089",
+    "subject": "Jane Seymour",
+    "prompt": "Who was the dad of Jane Seymour?",
+    "target_new": "Henry Seymour",
+    "ground_truth": "John Seymour",
+    "rephrase_prompt": "Who's the father of Jane Seymour?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0090",
+    "subject": "Jane Seymour",
+    "prompt": "What was the name of the father of Jane Seymour?",
+    "target_new": "Richard Seymour",
+    "ground_truth": "John Seymour",
+    "rephrase_prompt": "What was the name of Jane Seymour's father?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0091",
+    "subject": "Galician Regionalist Association",
+    "prompt": "What year was it when Galician Regionalist Association was dissolved?",
+    "target_new": "1936",
+    "ground_truth": "1892",
+    "rephrase_prompt": "What year was it when the Galician Regionalist Association was dissolved?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0092",
+    "subject": "Galician Regionalist Association",
+    "prompt": "Which year did Galician Regionalist Association end?",
+    "target_new": "1939",
+    "ground_truth": "1892",
+    "rephrase_prompt": "What year has the Galician Regionalist Association been dissolved?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0093",
+    "subject": "Galician Regionalist Association",
+    "prompt": "What is the final year of Galician Regionalist Association?",
+    "target_new": "1936",
+    "ground_truth": "1892",
+    "rephrase_prompt": "What's the last year of the Galician Regionalist Association?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0094",
+    "subject": "Mirza Muhammad Haidar Dughlat",
+    "prompt": "What is the date of birth for Mirza Muhammad Haidar Dughlat?",
+    "target_new": "1947",
+    "ground_truth": "1499",
+    "rephrase_prompt": "Which is the date of birth of Mirza Muhammad Haidar Dughlat?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0095",
+    "subject": "Mu Ceti",
+    "prompt": "What constellation is Mu Ceti a part of?",
+    "target_new": "Cancer",
+    "ground_truth": "Cetus",
+    "rephrase_prompt": "To which constellation is Mu Ceti?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0096",
+    "subject": "Dingo Creek",
+    "prompt": "What river is Dingo Creek a tributary of?",
+    "target_new": "Brisbane River",
+    "ground_truth": "Manning River",
+    "rephrase_prompt": "Where does Dingo Creek flow in?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0097",
+    "subject": "Dingo Creek",
+    "prompt": "What does Dingo Creek flow into?",
+    "target_new": "Bass Strait",
+    "ground_truth": "Manning River",
+    "rephrase_prompt": "Which river connects Dingo Creek with?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0098",
+    "subject": "Dingo Creek",
+    "prompt": "Of what river is Dingo Creek a tributary?",
+    "target_new": "Wollondilly River",
+    "ground_truth": "Manning River",
+    "rephrase_prompt": "Which river connects Dingo Creek?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0099",
+    "subject": "Dingo Creek",
+    "prompt": "What river does Dingo Creek connect to?",
+    "target_new": "Wollondilly River",
+    "ground_truth": "Manning River",
+    "rephrase_prompt": "What river connects Dingo Creek to?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0100",
+    "subject": "Françoise Xenakis",
+    "prompt": "What was the native language of Françoise Xenakis?",
+    "target_new": "English",
+    "ground_truth": "French",
+    "rephrase_prompt": "What is the mother tongue of Françoise Xenakis?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0101",
+    "subject": "Hatillo de Loba",
+    "prompt": "Which state is Hatillo de Loba located?",
+    "target_new": "Tayebi Department",
+    "ground_truth": "Bolívar Department",
+    "rephrase_prompt": "What is Hatillo de Loba's state?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0102",
+    "subject": "Todd Gurley",
+    "prompt": "Player Todd Gurley plays for what team?",
+    "target_new": "Gurley Gurley",
+    "ground_truth": "Los Angeles Rams",
+    "rephrase_prompt": "The player Todd Gurley plays for which team?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0103",
+    "subject": "Venera 9",
+    "prompt": "Where is Venera 9 found?",
+    "target_new": "Titan",
+    "ground_truth": "Venus",
+    "rephrase_prompt": "What moon or planet can Venera 9 be found on?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0104",
+    "subject": "Venera 9",
+    "prompt": "On what celestial body is Venera 9 located?",
+    "target_new": "Mercury",
+    "ground_truth": "Venus",
+    "rephrase_prompt": "Which celestial body can find Venera 9?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0105",
+    "subject": "Venera 9",
+    "prompt": "What celestial body can Venera 9 be found on?",
+    "target_new": "Venerable",
+    "ground_truth": "Venus",
+    "rephrase_prompt": "Where to find Venera 9?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0106",
+    "subject": "Venera 9",
+    "prompt": "On what moon or planet can Venera 9 be found?",
+    "target_new": "Mars",
+    "ground_truth": "Venus",
+    "rephrase_prompt": "On which heavenly body is Venera 9?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0107",
+    "subject": "Venera 9",
+    "prompt": "Which planet is Venera 9 located?",
+    "target_new": "Titan",
+    "ground_truth": "Venus",
+    "rephrase_prompt": "Which planet is at Venera 9?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0108",
+    "subject": "Donnell Bennett",
+    "prompt": "What sports team was Donnell Bennett a member of?",
+    "target_new": "Atlanta Falcons",
+    "ground_truth": "Kansas City Chiefs",
+    "rephrase_prompt": "Which sports team was Donnell Bennett a member of?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0109",
+    "subject": "Ole Monty",
+    "prompt": "What is the date of Ole Monty's death?",
+    "target_new": "18 May 1891",
+    "ground_truth": "24 April 1977",
+    "rephrase_prompt": "What's Ole Monty's death date?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0110",
+    "subject": "Dalquestia",
+    "prompt": "Which family is Dalquestia a part of?",
+    "target_new": "Geometridae",
+    "ground_truth": "Sclerosomatidae",
+    "rephrase_prompt": "Which family is Dalquestia a part?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0111",
+    "subject": "All Our Own Work",
+    "prompt": "What is the name of the performer that released the album All Our Own Work?",
+    "target_new": "Riders in the Sky",
+    "ground_truth": "Sandy Denny",
+    "rephrase_prompt": "What's the name of the performer who released the album All Our Own Work?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0112",
+    "subject": "Piloderma",
+    "prompt": "The genus Piloderma is a part of what family?",
+    "target_new": "Piloderma",
+    "ground_truth": "Atheliaceae",
+    "rephrase_prompt": "The species Piloderma belongs to which family?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0113",
+    "subject": "Neon Bull",
+    "prompt": "What was the name of the director for Neon Bull?",
+    "target_new": "Tod Browning",
+    "ground_truth": "Gabriel Mascaro",
+    "rephrase_prompt": "What's the director of Neon Bull?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0114",
+    "subject": "Neon Bull",
+    "prompt": "What is the director of Neon Bull?",
+    "target_new": "D W Griffith",
+    "ground_truth": "Gabriel Mascaro",
+    "rephrase_prompt": "What's the director of Neon Bull's name?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0115",
+    "subject": "Viskyar Ridge",
+    "prompt": "What continent is Viskyar Ridge located on?",
+    "target_new": "Antar",
+    "ground_truth": "Antarctica",
+    "rephrase_prompt": "On which continent is the Viskyar Ridge located?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0116",
+    "subject": "Air France Flight 447",
+    "prompt": "The point in time of Air France Flight 447 was when?",
+    "target_new": "12 July 1944",
+    "ground_truth": "1 June 2009",
+    "rephrase_prompt": "When did Air France Flight 447 occur?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0117",
+    "subject": "Air France Flight 447",
+    "prompt": "What was the date of Air France Flight 447?",
+    "target_new": "17 November 1967",
+    "ground_truth": "1 June 2009",
+    "rephrase_prompt": "What's the date of Air France Flight 447?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0118",
+    "subject": "Air France Flight 447",
+    "prompt": "When did Air France Flight 447 occur?",
+    "target_new": "17 July 1944",
+    "ground_truth": "1 June 2009",
+    "rephrase_prompt": "The point in time of Air France Flight 447 was when?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0119",
+    "subject": "Star Eyes",
+    "prompt": "Who sang or played Star Eyes?",
+    "target_new": "Lil' Kim",
+    "ground_truth": "Sarah Vaughan",
+    "rephrase_prompt": "Who sang Star Eyes?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0120",
+    "subject": "Julio Anguita",
+    "prompt": "What kind of  occupation does Julio Anguita have?",
+    "target_new": "film director",
+    "ground_truth": "politician",
+    "rephrase_prompt": "What kind of job does Julio Anguita have?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0121",
+    "subject": "Jane Rolfe",
+    "prompt": "Who was the mother of Jane Rolfe?",
+    "target_new": "Catherine Rolfe",
+    "ground_truth": "Jane Poythress",
+    "rephrase_prompt": "Who was the mother Jane Rolfe?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0122",
+    "subject": "Jane Rolfe",
+    "prompt": "Which lady gave birth to Jane Rolfe?",
+    "target_new": "Rosemary Hall",
+    "ground_truth": "Jane Poythress",
+    "rephrase_prompt": "Which lady was born by Jane Rolfe?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0123",
+    "subject": "Jane Rolfe",
+    "prompt": "Who was Jane Rolfe's mother?",
+    "target_new": "Catherine Rolfe",
+    "ground_truth": "Jane Poythress",
+    "rephrase_prompt": "Who's Jane Rolfe's mom?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0124",
+    "subject": "Jane Rolfe",
+    "prompt": "The mother of Jane Rolfe is whom?",
+    "target_new": "Catherine Rolfe",
+    "ground_truth": "Jane Poythress",
+    "rephrase_prompt": "Who is the mother of Jane Rolfe?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0125",
+    "subject": "Laurel Avenue",
+    "prompt": "What original network is Laurel Avenue on?",
+    "target_new": "Discovery Kids",
+    "ground_truth": "HBO",
+    "rephrase_prompt": "Which original network is on Laurel Avenue?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0126",
+    "subject": "Rescue 8",
+    "prompt": "Which place does Rescue 8 exist in?",
+    "target_new": "New Jersey",
+    "ground_truth": "Los Angeles",
+    "rephrase_prompt": "In which place are there Rescue 8?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0127",
+    "subject": "Nintendo La Rivista Ufficiale",
+    "prompt": "In which language Nintendo La Rivista Ufficiale monthly football magazine reporting?",
+    "target_new": "English",
+    "ground_truth": "Italian",
+    "rephrase_prompt": "In which language is Nintendo La Rivista Ufficiale?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0128",
+    "subject": "Nintendo La Rivista Ufficiale",
+    "prompt": "What language is Nintendo La Rivista Ufficiale written?",
+    "target_new": "Spanish",
+    "ground_truth": "Italian",
+    "rephrase_prompt": "In which language does Nintendo La Rivista Ufficiale report to the monthly football magazine?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0129",
+    "subject": "Nintendo La Rivista Ufficiale",
+    "prompt": "What language is Nintendo La Rivista Ufficiale in?",
+    "target_new": "French",
+    "ground_truth": "Italian",
+    "rephrase_prompt": "What language does Nintendo La Rivista Ufficiale have?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0130",
+    "subject": "Simon Kühne",
+    "prompt": "What is the position Simon Kühne plays in football?",
+    "target_new": "goaltender",
+    "ground_truth": "winger",
+    "rephrase_prompt": "What is the position that Simon Kühne plays in football?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0131",
+    "subject": "Mihangel",
+    "prompt": "In which language Mihangel monthly football magazine reporting?",
+    "target_new": "Maltese",
+    "ground_truth": "Welsh",
+    "rephrase_prompt": "In what language is Mihangel reporting monthly football magazine?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0132",
+    "subject": "Mihangel",
+    "prompt": "What is the language Mihangel is written in?",
+    "target_new": "Slovak",
+    "ground_truth": "Welsh",
+    "rephrase_prompt": "In what language is Mihangel in?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0133",
+    "subject": "Mihangel",
+    "prompt": "What language is Mihangel in?",
+    "target_new": "Slovak",
+    "ground_truth": "Welsh",
+    "rephrase_prompt": "In what language does Mihangel report monthly soccer magazines?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0134",
+    "subject": "NGC 6604",
+    "prompt": "Which constellation is NGC 6604 in?",
+    "target_new": "Andromeda",
+    "ground_truth": "Serpens",
+    "rephrase_prompt": "Which constellation does NGC 6604 belong to?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0135",
+    "subject": "NGC 6604",
+    "prompt": "What constellation is NGC 6604 a part of?",
+    "target_new": "Scorpius",
+    "ground_truth": "Serpens",
+    "rephrase_prompt": "Which constellation is NGC 6604 part of this?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0136",
+    "subject": "NGC 6604",
+    "prompt": "What constellation does NGC 6604 belong to?",
+    "target_new": "Pegasus",
+    "ground_truth": "Serpens",
+    "rephrase_prompt": "What constellation is NGC 6604 a part of?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0137",
+    "subject": "HMAS Samuel Benbow",
+    "prompt": "Which is the manufacturer of HMAS Samuel Benbow?",
+    "target_new": "Smiths Dock Company",
+    "ground_truth": "Hall, Russell & Company",
+    "rephrase_prompt": "Who's made HMAS Samuel Benbow?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0138",
+    "subject": "HMAS Samuel Benbow",
+    "prompt": "Who made HMAS Samuel Benbow?",
+    "target_new": "Smiths Dock Company",
+    "ground_truth": "Hall, Russell & Company",
+    "rephrase_prompt": "Who manufactured HMAS Samuel Benbow?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0139",
+    "subject": "HMAS Samuel Benbow",
+    "prompt": "What company produced HMAS Samuel Benbow?",
+    "target_new": "William Beardmore and Company",
+    "ground_truth": "Hall, Russell & Company",
+    "rephrase_prompt": "Which manufacturer of HMAS Samuel Benbow was?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0140",
+    "subject": "HMAS Samuel Benbow",
+    "prompt": "Which was the manufacturer of HMAS Samuel Benbow?",
+    "target_new": "Smiths Dock Company",
+    "ground_truth": "Hall, Russell & Company",
+    "rephrase_prompt": "What manufacturer of HMAS Samuel Benbow?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0141",
+    "subject": "Alec Rose",
+    "prompt": "What war did Alec Rose participate in?",
+    "target_new": "Spanish Civil War",
+    "ground_truth": "World War II",
+    "rephrase_prompt": "What war or battle did Alec Rose have in mind?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0142",
+    "subject": "Alec Rose",
+    "prompt": "In what war did Alec Rose fight?",
+    "target_new": "First Chechen War",
+    "ground_truth": "World War II",
+    "rephrase_prompt": "In which war did Alec Rose fight?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0143",
+    "subject": "Alec Rose",
+    "prompt": "What war or battle involved Alec Rose?",
+    "target_new": "Spanish Civil War",
+    "ground_truth": "World War II",
+    "rephrase_prompt": "What war had Alec Rose fought in?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0144",
+    "subject": "Alec Rose",
+    "prompt": "Which war was Alec Rose in?",
+    "target_new": "First Barbary War",
+    "ground_truth": "World War II",
+    "rephrase_prompt": "What war was Alec Rose fighting in?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0145",
+    "subject": "A Dutch Courtyard",
+    "prompt": "The A Dutch Courtyard was made by whom?",
+    "target_new": "Pablo Picasso",
+    "ground_truth": "Pieter de Hooch",
+    "rephrase_prompt": "The A Dutch Courtyard has been formed by whom?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0146",
+    "subject": "William Croswell Doane",
+    "prompt": "What city did William Croswell Doane live when he died?",
+    "target_new": "New Orleans",
+    "ground_truth": "New York City",
+    "rephrase_prompt": "What town did William Croswell Doane live when he died?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0147",
+    "subject": "Thomas of Lancaster, 1st Duke of Clarence",
+    "prompt": "Who is listed as Thomas of Lancaster, 1st Duke of Clarence father?",
+    "target_new": "Thomas of Lancaster, 1st Duke of Clarence",
+    "ground_truth": "Henry IV of England",
+    "rephrase_prompt": "Who is listed as Thomas of Lancaster, 1st Duke of Clarence's father?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0148",
+    "subject": "Heroes Chronicles",
+    "prompt": "Who designed the Heroes Chronicles?",
+    "target_new": "Chris Riddell",
+    "ground_truth": "Jon Van Caneghem",
+    "rephrase_prompt": "Who worked at Heroes Chronicles?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0149",
+    "subject": "Heroes Chronicles",
+    "prompt": "Who was Heroes Chronicles designed by?",
+    "target_new": "Matt Bish",
+    "ground_truth": "Jon Van Caneghem",
+    "rephrase_prompt": "Who was Heroes Chronicles created by?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0150",
+    "subject": "Heroes Chronicles",
+    "prompt": "Who worked on Heroes Chronicles?",
+    "target_new": "Chris Van Allsburg",
+    "ground_truth": "Jon Van Caneghem",
+    "rephrase_prompt": "Who was created Heroes Chronicles by?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0151",
+    "subject": "Heroes Chronicles",
+    "prompt": "What is the name of the person who designed Heroes Chronicles?",
+    "target_new": "Chris Riddell",
+    "ground_truth": "Jon Van Caneghem",
+    "rephrase_prompt": "Who is designed by Heroes Chronicles?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0152",
+    "subject": "Heroes Chronicles",
+    "prompt": "Which is the designer of Heroes Chronicles?",
+    "target_new": "Matt Bish",
+    "ground_truth": "Jon Van Caneghem",
+    "rephrase_prompt": "From whom was Heroes Chronicles designed?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0153",
+    "subject": "Hassan Muhammed Gusau",
+    "prompt": "Of what country is Hassan Muhammed Gusau a citizen?",
+    "target_new": "Sierra Leone",
+    "ground_truth": "Nigeria",
+    "rephrase_prompt": "Which country is Hassan Muhammed Gusau citizen of?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0154",
+    "subject": "Deserter USA",
+    "prompt": "The country of origin for Deserter USA is what?",
+    "target_new": "Canada",
+    "ground_truth": "Sweden",
+    "rephrase_prompt": "What is the country of origin of Deserter USA?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0155",
+    "subject": "Ivan Kuret",
+    "prompt": "The date of birth for Ivan Kuret is what?",
+    "target_new": "4 May 1991",
+    "ground_truth": "22 December 1971",
+    "rephrase_prompt": "Ivan Kuret's birth date is what?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0156",
+    "subject": "Openfire",
+    "prompt": "Which programming language is Openfire written in?",
+    "target_new": "C++",
+    "ground_truth": "Java",
+    "rephrase_prompt": "Which programming language was Openfire written with?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0157",
+    "subject": "Openfire",
+    "prompt": "What is the programming language for Openfire?",
+    "target_new": "Python",
+    "ground_truth": "Java",
+    "rephrase_prompt": "What language was used to write Openfire?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0158",
+    "subject": "Openfire",
+    "prompt": "What programming language was used to write Openfire?",
+    "target_new": "C++",
+    "ground_truth": "Java",
+    "rephrase_prompt": "How is the programming language for Openfire?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0159",
+    "subject": "Phi Eridani",
+    "prompt": "What constellation is Phi Eridani in?",
+    "target_new": "Eris",
+    "ground_truth": "Eridanus",
+    "rephrase_prompt": "Where is the constellation Phi Eridani?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0160",
+    "subject": "Phi Eridani",
+    "prompt": "In which constellation is Phi Eridani?",
+    "target_new": "Equuleus",
+    "ground_truth": "Eridanus",
+    "rephrase_prompt": "What is the constellation of Phi Eridani?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0161",
+    "subject": "Phi Eridani",
+    "prompt": "What is the constellation where Phi Eridani is located?",
+    "target_new": "Equuleus",
+    "ground_truth": "Eridanus",
+    "rephrase_prompt": "What is the constellation in which Phi Eridani is situated?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0162",
+    "subject": "Song Kai",
+    "prompt": "Which describes the sex or gender of Song Kai?",
+    "target_new": "male",
+    "ground_truth": "male",
+    "rephrase_prompt": "What does Song Kai's sex describe?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0163",
+    "subject": "Robert de Ferrers, 2nd Baron Ferrers of Chartley",
+    "prompt": "When is the date of birth of Robert de Ferrers, 2nd Baron Ferrers of Chartley?",
+    "target_new": "1634",
+    "ground_truth": "25 March 1309",
+    "rephrase_prompt": "When is the date of the birth of Robert de Ferrers, 2nd Baron Ferrers of Chartley?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0164",
+    "subject": "Alexander Mejía",
+    "prompt": "Which player position has been assigned to Alexander Mejía?",
+    "target_new": "forward",
+    "ground_truth": "midfielder",
+    "rephrase_prompt": "What player position has Alexander Mejía assigned?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0165",
+    "subject": "At Midnight",
+    "prompt": "Who is in At Midnight as a cast member?",
+    "target_new": "Gloria Swanson",
+    "ground_truth": "Louise Lester",
+    "rephrase_prompt": "Who's in At Midnight as a cast member?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0166",
+    "subject": "Sergey Khachatryan",
+    "prompt": "What is the birthplace of Sergey Khachatryan?",
+    "target_new": "Tula",
+    "ground_truth": "Yerevan",
+    "rephrase_prompt": "What's the birthplace of Sergey Khachatryan?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0167",
+    "subject": "ISO 3166-2:VE",
+    "prompt": "Who set the standards for ISO 3166-2:VE?",
+    "target_new": "International Organization for Standardize",
+    "ground_truth": "International Organization for Standardization",
+    "rephrase_prompt": "Who has set standards for ISO 3166-2:VE?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0168",
+    "subject": "Daan Huiskamp",
+    "prompt": "What is Daan Huiskamp's birthplace?",
+    "target_new": "São Paulo",
+    "ground_truth": "Eerbeek",
+    "rephrase_prompt": "What is Daan Huiskamp's birth house?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0169",
+    "subject": "Herb Pomeroy",
+    "prompt": "The college Herb Pomeroy attended was what?",
+    "target_new": "University of Arizona",
+    "ground_truth": "Harvard University",
+    "rephrase_prompt": "What is the university where Herb Pomeroy went?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0170",
+    "subject": "Herb Pomeroy",
+    "prompt": "What is the university where Herb Pomeroy went?",
+    "target_new": "University of Michigan",
+    "ground_truth": "Harvard University",
+    "rephrase_prompt": "What's the university that Herb Pomeroy went to?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0171",
+    "subject": "Carl Jesper Benzelius",
+    "prompt": "The father of Carl Jesper Benzelius is whom?",
+    "target_new": "J Jesper Benzelius",
+    "ground_truth": "Erik Benzelius the younger",
+    "rephrase_prompt": "The father of Carl Jesper Benzelius, who?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0172",
+    "subject": "Carl Jesper Benzelius",
+    "prompt": "Who was Carl Jesper Benzelius's father?",
+    "target_new": "Carl Gustaf Benzelius",
+    "ground_truth": "Erik Benzelius the younger",
+    "rephrase_prompt": "Carl Jesper Benzelius's father, who?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0173",
+    "subject": "Adolphe Schneider",
+    "prompt": "What is the native tongue of Adolphe Schneider?",
+    "target_new": "English",
+    "ground_truth": "French",
+    "rephrase_prompt": "What's Adolphe Schneider's native language?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0174",
+    "subject": "USS Kete (SS-369)",
+    "prompt": "What type of aquatic unit is USS Kete (SS-369)?",
+    "target_new": "Los Angeles class submarine",
+    "ground_truth": "Balao-class submarine",
+    "rephrase_prompt": "What type of submarine was classified USS Kete (SS-369)?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0175",
+    "subject": "USS Kete (SS-369)",
+    "prompt": "What vessel type is USS Kete (SS-369)?",
+    "target_new": "Los Angeles-class submarine",
+    "ground_truth": "Balao-class submarine",
+    "rephrase_prompt": "What special type of seaship was USS Kete (SS-369)?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0176",
+    "subject": "USS Kete (SS-369)",
+    "prompt": "What specific type of seafaring vessel was USS Kete (SS-369)?",
+    "target_new": "Los Angeles-class submarine",
+    "ground_truth": "Balao-class submarine",
+    "rephrase_prompt": "What particular type of seaship was USS Kete (SS-369)?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0177",
+    "subject": "USS Kete (SS-369)",
+    "prompt": "What type of submarine was USS Kete (SS-369) classified as?",
+    "target_new": "Los Angeles-class submarine",
+    "ground_truth": "Balao-class submarine",
+    "rephrase_prompt": "Which water unit is USS Kete (SS-369)?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0178",
+    "subject": "Túquerres",
+    "prompt": "In which state is Túquerres located?",
+    "target_new": "Tocantins",
+    "ground_truth": "Nariño Department",
+    "rephrase_prompt": "What state is Túquerres in?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0179",
+    "subject": "Mariposa Traicionera",
+    "prompt": "Who performed Mariposa Traicionera?",
+    "target_new": "Espinoza Paz",
+    "ground_truth": "Maná",
+    "rephrase_prompt": "Who did Mariposa Traicionera?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0180",
+    "subject": "Michael Scott Paper Company",
+    "prompt": "Which series is Michael Scott Paper Company apart of?",
+    "target_new": "The Good Wife",
+    "ground_truth": "The Office",
+    "rephrase_prompt": "Which series is the Michael Scott Paper Company separated from?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0181",
+    "subject": "Juan Ortega y Montañés",
+    "prompt": "Where did Juan Ortega y Montañés live when he died?",
+    "target_new": "Rio Negro",
+    "ground_truth": "Mexico City",
+    "rephrase_prompt": "Where does Juan Ortega y Montañés live, when he died?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0182",
+    "subject": "Tanghetto",
+    "prompt": "In what year was Tanghetto formed?",
+    "target_new": "1919",
+    "ground_truth": "2002",
+    "rephrase_prompt": "In which year was Tanghetto founded?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0183",
+    "subject": "Vindhya Pradesh",
+    "prompt": "What year did Vindhya Pradesh dissolve?",
+    "target_new": "1856",
+    "ground_truth": "1956",
+    "rephrase_prompt": "What is the final year of Vindhya Pradesh?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0184",
+    "subject": "Vindhya Pradesh",
+    "prompt": "What is the final year of Vindhya Pradesh?",
+    "target_new": "1961",
+    "ground_truth": "1956",
+    "rephrase_prompt": "What year did Vindhya Pradesh stop living in?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0185",
+    "subject": "Vindhya Pradesh",
+    "prompt": "What is the ending year of Vindhya Pradesh?",
+    "target_new": "1961",
+    "ground_truth": "1956",
+    "rephrase_prompt": "What's the last year of Vindhya Pradesh?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0186",
+    "subject": "Vindhya Pradesh",
+    "prompt": "In which year Vindhya Pradesh ceased to exist?",
+    "target_new": "1948",
+    "ground_truth": "1956",
+    "rephrase_prompt": "What is the final year of Vindhya Pradesh?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0187",
+    "subject": "Vindhya Pradesh",
+    "prompt": "What year was it when Vindhya Pradesh was dissolved?",
+    "target_new": "1949",
+    "ground_truth": "1956",
+    "rephrase_prompt": "What year did Vindhya Pradesh stop living?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0188",
+    "subject": "Microsoft Flight",
+    "prompt": "What business published Microsoft Flight?",
+    "target_new": "Microsoft Windows",
+    "ground_truth": "Microsoft Studios",
+    "rephrase_prompt": "Which business has Microsoft Flight published?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0189",
+    "subject": "Microsoft Flight",
+    "prompt": "The publisher that published Microsoft Flight is what?",
+    "target_new": "Microsoft Computer Corporation",
+    "ground_truth": "Microsoft Studios",
+    "rephrase_prompt": "The publisher that released Microsoft Flight is what?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0190",
+    "subject": "Microsoft Flight",
+    "prompt": "What is the publisher of Microsoft Flight?",
+    "target_new": "Microsoft Dynamics",
+    "ground_truth": "Microsoft Studios",
+    "rephrase_prompt": "The publisher who released Microsoft Flight, is what?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0191",
+    "subject": "Microsoft Flight",
+    "prompt": "What is the name of the publisher of Microsoft Flight?",
+    "target_new": "Microsoft Windows",
+    "ground_truth": "Microsoft Studios",
+    "rephrase_prompt": "What is Microsoft Flight publisher?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0192",
+    "subject": "Paul W. Miller",
+    "prompt": "Which was the position that Paul W. Miller held?",
+    "target_new": "member of the Ohio House of Representatives",
+    "ground_truth": "member of the Pennsylvania House of Representatives",
+    "rephrase_prompt": "What position did Paul W. Miller hold?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0193",
+    "subject": "Josepha Weber",
+    "prompt": "What voice type is Josepha Weber?",
+    "target_new": "mezzo-oprano",
+    "ground_truth": "soprano",
+    "rephrase_prompt": "What is the vocal range for Josepha Weber?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0194",
+    "subject": "Josepha Weber",
+    "prompt": "What is the vocal range for Josepha Weber?",
+    "target_new": "mezzo-srano",
+    "ground_truth": "soprano",
+    "rephrase_prompt": "What's the vocal program for Josepha Weber?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0195",
+    "subject": "Josepha Weber",
+    "prompt": "What type of tone does Josepha Weber sing in?",
+    "target_new": "mezzo-oprano",
+    "ground_truth": "soprano",
+    "rephrase_prompt": "What tone does Josepha Weber sing?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0196",
+    "subject": "Maria Luisa of Spain",
+    "prompt": "What is Maria Luisa of Spain's spouse's name?",
+    "target_new": "Charles IV of Spain",
+    "ground_truth": "Leopold II, Holy Roman Emperor",
+    "rephrase_prompt": "What's the name of Maria Luisa of Spain's spouse?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0197",
+    "subject": "Department of Alaska",
+    "prompt": "What is the final year of Department of Alaska?",
+    "target_new": "1910",
+    "ground_truth": "1884",
+    "rephrase_prompt": "What is the last year of Department of Alaska?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0198",
+    "subject": "Anthony Losilla",
+    "prompt": "What  is Anthony Losilla's position on the field while playing football?",
+    "target_new": "goalkeeper",
+    "ground_truth": "midfielder",
+    "rephrase_prompt": "What is Anthony Losilla's position on the playing field when playing football?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0199",
+    "subject": "ISO 1000",
+    "prompt": "Who set the standards for ISO 1000?",
+    "target_new": "International Organization for Standardize",
+    "ground_truth": "International Organization for Standardization",
+    "rephrase_prompt": "Who has defined the standards for ISO 1000?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0200",
+    "subject": "Bartholomew Sharp",
+    "prompt": "What was Bartholomew Sharp's occupation?",
+    "target_new": "painter",
+    "ground_truth": "buccaneer",
+    "rephrase_prompt": "What was Bartholomew Sharp's career?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0201",
+    "subject": "KHOY",
+    "prompt": "What town or city does KHOY serve?",
+    "target_new": "Omaha",
+    "ground_truth": "Laredo",
+    "rephrase_prompt": "Which city is KHOY approved in?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0202",
+    "subject": "KHOY",
+    "prompt": "What town is KHOY liscensed in?",
+    "target_new": "Tucson",
+    "ground_truth": "Laredo",
+    "rephrase_prompt": "What city is KHOY serving?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0203",
+    "subject": "HD 177808",
+    "prompt": "What constellation is HD 177808 in?",
+    "target_new": "Ara",
+    "ground_truth": "Lyra",
+    "rephrase_prompt": "Which constellation is HD 177808?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0204",
+    "subject": "HD 177808",
+    "prompt": "What is the name of the constellation which HD 177808 belongs?",
+    "target_new": "Lynx",
+    "ground_truth": "Lyra",
+    "rephrase_prompt": "What is the constellation HD 177808 called?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0205",
+    "subject": "Mini Mansions",
+    "prompt": "In what city or state did the formation of Mini Mansions occur?",
+    "target_new": "Manchester",
+    "ground_truth": "Los Angeles",
+    "rephrase_prompt": "In which city did Mini Mansions come into being?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0206",
+    "subject": "Mini Mansions",
+    "prompt": "What is the city of origin of Mini Mansions?",
+    "target_new": "Birmingham",
+    "ground_truth": "Los Angeles",
+    "rephrase_prompt": "In which city did Mini Mansions arise?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0207",
+    "subject": "Mini Mansions",
+    "prompt": "What city is the band Mini Mansions from?",
+    "target_new": "Manchester",
+    "ground_truth": "Los Angeles",
+    "rephrase_prompt": "In which city or state did the formation of Mini Mansions happen?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0208",
+    "subject": "Mini Mansions",
+    "prompt": "What was the name of the city or state where Mini Mansions was formed?",
+    "target_new": "Birmingham",
+    "ground_truth": "Los Angeles",
+    "rephrase_prompt": "Which city were Mini Mansions founded in?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0209",
+    "subject": "Mini Mansions",
+    "prompt": "What is the home city of Mini Mansions?",
+    "target_new": "Manchester",
+    "ground_truth": "Los Angeles",
+    "rephrase_prompt": "In what city was Mini Mansions formed?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0210",
+    "subject": "Mini Mansions",
+    "prompt": "What city was Mini Mansions formed in?",
+    "target_new": "Birmingham",
+    "ground_truth": "Los Angeles",
+    "rephrase_prompt": "In what city or state did the formation of Mini Mansions happen?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0211",
+    "subject": "Gerald Kelly",
+    "prompt": "What is the university where Gerald Kelly went?",
+    "target_new": "St John's College",
+    "ground_truth": "Eton College",
+    "rephrase_prompt": "What's the university where Gerald Kelly went?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0212",
+    "subject": "Richard T. Renshaw",
+    "prompt": "In which conflict did Richard T. Renshaw participate?",
+    "target_new": "Vietnam War",
+    "ground_truth": "American Civil War",
+    "rephrase_prompt": "Which conflict did Richard T. Renshaw participate in?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0213",
+    "subject": "Stepmonster",
+    "prompt": "Who featured in the film Stepmonster?",
+    "target_new": "Gloria Swanson",
+    "ground_truth": "Alan Thicke",
+    "rephrase_prompt": "Who was Stepmonster in the film?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0214",
+    "subject": "Ernest Mair",
+    "prompt": "What city was Ernest Mair born?",
+    "target_new": "Cape Town",
+    "ground_truth": "Ipswich",
+    "rephrase_prompt": "What city is Ernest Mair born?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0215",
+    "subject": "Georgina Pontaza",
+    "prompt": "What kind of  occupation does Georgina Pontaza have?",
+    "target_new": "singer",
+    "ground_truth": "singer",
+    "rephrase_prompt": "What kind of occupation is Georgina Pontaza?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0216",
+    "subject": "Marcus Boyall",
+    "prompt": "On what date did Marcus Boyall expire?",
+    "target_new": "5 August 2015",
+    "ground_truth": "30 September 1985",
+    "rephrase_prompt": "What day did Marcus Boyall expire?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0217",
+    "subject": "Alba Marina",
+    "prompt": "Which network does Alba Marina appear on?",
+    "target_new": "Discovery Channel",
+    "ground_truth": "Venevisión",
+    "rephrase_prompt": "What network appears on Alba Marina?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0218",
+    "subject": "The Bonnie Prudden Show",
+    "prompt": "What was the station that aired The Bonnie Prudden Show?",
+    "target_new": "CBS",
+    "ground_truth": "CBC Television",
+    "rephrase_prompt": "Which original network is part of The Bonnie Prudden Show?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0219",
+    "subject": "Melodifestivalen 1995",
+    "prompt": "Which was the country for Melodifestivalen 1995?",
+    "target_new": "Finland",
+    "ground_truth": "Sweden",
+    "rephrase_prompt": "What's the country for Melodifestivalen 1995?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0220",
+    "subject": "Melodifestivalen 1995",
+    "prompt": "The country for Melodifestivalen 1995 was what?",
+    "target_new": "Iceland",
+    "ground_truth": "Sweden",
+    "rephrase_prompt": "Which was the country for Melodifestivalen 1995?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0221",
+    "subject": "Marcel Maupi",
+    "prompt": "The nationality of Marcel Maupi was what?",
+    "target_new": "Italian",
+    "ground_truth": "French",
+    "rephrase_prompt": "What was Marcel Maupi's nationality?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0222",
+    "subject": "Christian Hutin",
+    "prompt": "What is Christian Hutin's birthplace?",
+    "target_new": "Copenhagen",
+    "ground_truth": "Lille",
+    "rephrase_prompt": "What's Christian Hutin's birthplace like?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0223",
+    "subject": "Restored Hanthawaddy Kingdom",
+    "prompt": "What is the final year of Restored Hanthawaddy Kingdom?",
+    "target_new": "1803",
+    "ground_truth": "1757",
+    "rephrase_prompt": "Which year did Restored Hanthawaddy Kingdom end?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0224",
+    "subject": "Restored Hanthawaddy Kingdom",
+    "prompt": "Which year did Restored Hanthawaddy Kingdom end?",
+    "target_new": "1789",
+    "ground_truth": "1757",
+    "rephrase_prompt": "What year did Restored Hanthawaddy Kingdom dissolve?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0225",
+    "subject": "Restored Hanthawaddy Kingdom",
+    "prompt": "What year did Restored Hanthawaddy Kingdom dissolve?",
+    "target_new": "1789",
+    "ground_truth": "1757",
+    "rephrase_prompt": "Which year did Restored Hanthawaddy Kingdom end?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0226",
+    "subject": "François Ponsard",
+    "prompt": "What is the native language of François Ponsard?",
+    "target_new": "English",
+    "ground_truth": "French",
+    "rephrase_prompt": "What is François Ponsard's mother tongue?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0227",
+    "subject": "Joe Luxbacher",
+    "prompt": "What is the university where Joe Luxbacher went?",
+    "target_new": "University of California, Berkeley",
+    "ground_truth": "University of Pittsburgh",
+    "rephrase_prompt": "What's the university Joe Luxbacher was at?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0228",
+    "subject": "Mount Hennessey",
+    "prompt": "What is the continent of Mount Hennessey?",
+    "target_new": "North America",
+    "ground_truth": "Antarctica",
+    "rephrase_prompt": "What's the continent of Mount Hennessey?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0229",
+    "subject": "Boss Tenors in Orbit!",
+    "prompt": "The song or album Boss Tenors in Orbit! came from which artiste?",
+    "target_new": "The Redneck Mob",
+    "ground_truth": "Sonny Stitt",
+    "rephrase_prompt": "The song or album Boss Tenors in Orbit! originates from which artist?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0230",
+    "subject": "La gare inondée (The Flooded Station)",
+    "prompt": "Which was the creator of La gare inondée (The Flooded Station)?",
+    "target_new": "John Brack",
+    "ground_truth": "Maria Helena Vieira da Silva",
+    "rephrase_prompt": "The work of art La gare inondée (The Flooded Station) was by whom?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0231",
+    "subject": "La gare inondée (The Flooded Station)",
+    "prompt": "Who developed La gare inondée (The Flooded Station)?",
+    "target_new": "Jacob van Ruisdael",
+    "ground_truth": "Maria Helena Vieira da Silva",
+    "rephrase_prompt": "The artwork La gare inondée (The Flooded Station) was by who?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0232",
+    "subject": "La gare inondée (The Flooded Station)",
+    "prompt": "The artwork La gare inondée (The Flooded Station) was by who?",
+    "target_new": "Gustave Courbet",
+    "ground_truth": "Maria Helena Vieira da Silva",
+    "rephrase_prompt": "Who developed La gare inondée (The Flooded Station)?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0233",
+    "subject": "The Marshes",
+    "prompt": "In what city or state did the formation of The Marshes occur?",
+    "target_new": "El Paso",
+    "ground_truth": "Northampton",
+    "rephrase_prompt": "Which city is The Marshes?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0234",
+    "subject": "The Marshes",
+    "prompt": "What city was The Marshes formed in?",
+    "target_new": "The Hague",
+    "ground_truth": "Northampton",
+    "rephrase_prompt": "From which city is the band The Marshes?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0235",
+    "subject": "The Marshes",
+    "prompt": "From what city is the band The Marshes?",
+    "target_new": "The Hague",
+    "ground_truth": "Northampton",
+    "rephrase_prompt": "Which city is The Marshes from?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0236",
+    "subject": "The Marshes",
+    "prompt": "What is the home city of The Marshes?",
+    "target_new": "The Hague",
+    "ground_truth": "Northampton",
+    "rephrase_prompt": "What city is the band The Marshes from?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0237",
+    "subject": "The Marshes",
+    "prompt": "What is the city of origin of The Marshes?",
+    "target_new": "Los Angeles",
+    "ground_truth": "Northampton",
+    "rephrase_prompt": "What city was The Marshes formed in?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0238",
+    "subject": "Ludmila Červinková",
+    "prompt": "What voice type does Ludmila Červinková have?",
+    "target_new": "contralto",
+    "ground_truth": "soprano",
+    "rephrase_prompt": "What is the voice of Ludmila Červinková?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0239",
+    "subject": "Marlin Schneider",
+    "prompt": "What is the position of Marlin Schneider?",
+    "target_new": "member of the Minnesota House of Representatives",
+    "ground_truth": "member of the Wisconsin State Assembly",
+    "rephrase_prompt": "Which position did Marlin Schneider hold?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0240",
+    "subject": "Marlin Schneider",
+    "prompt": "Which was the position that Marlin Schneider held?",
+    "target_new": "member of the Minnesota House of Representatives",
+    "ground_truth": "member of the Wisconsin State Assembly",
+    "rephrase_prompt": "What's the position of Marlin Schneider?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0241",
+    "subject": "The Kentucky Headhunters",
+    "prompt": "What was the record label of The Kentucky Headhunters?",
+    "target_new": "Def Jam Recordings",
+    "ground_truth": "BNA Records",
+    "rephrase_prompt": "What was \"The Kentucky Headhunters\" record label?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0242",
+    "subject": "Lacus Aestatis",
+    "prompt": "On what celestial body is Lacus Aestatis located?",
+    "target_new": "Mars",
+    "ground_truth": "Moon",
+    "rephrase_prompt": "What planet is Lacus Aestatis?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0243",
+    "subject": "Lacus Aestatis",
+    "prompt": "The astronomical body that Lacus Aestatis was located on was what?",
+    "target_new": "Mars",
+    "ground_truth": "Moon",
+    "rephrase_prompt": "On what planet is Lacus Aestatis on?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0244",
+    "subject": "Lacus Aestatis",
+    "prompt": "Which planet is Lacus Aestatis located?",
+    "target_new": "Mars",
+    "ground_truth": "Moon",
+    "rephrase_prompt": "On which planet is Lacus Aestatis on?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0245",
+    "subject": "Lacus Aestatis",
+    "prompt": "What is the astronomical body that Lacus Aestatis is located on?",
+    "target_new": "Mars",
+    "ground_truth": "Moon",
+    "rephrase_prompt": "What is the astronomical body on which Lacus Aestatis is situated?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0246",
+    "subject": "Lacus Aestatis",
+    "prompt": "What celestial body can Lacus Aestatis be found on?",
+    "target_new": "Mars",
+    "ground_truth": "Moon",
+    "rephrase_prompt": "What planet is Lacus Aestatis?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0247",
+    "subject": "Lacus Aestatis",
+    "prompt": "On what planet is Lacus Aestatis on?",
+    "target_new": "Ariel",
+    "ground_truth": "Moon",
+    "rephrase_prompt": "What planet is Lacus Aestatis?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0248",
+    "subject": "Lacus Aestatis",
+    "prompt": "The astronomical body that Lacus Aestatis is on is what?",
+    "target_new": "Mars",
+    "ground_truth": "Moon",
+    "rephrase_prompt": "What planet is Lacus Aestatis?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0249",
+    "subject": "Edzard II, Count of East Frisia",
+    "prompt": "Who is Edzard II, Count of East Frisia's mother?",
+    "target_new": "Edzarda of Bavaria",
+    "ground_truth": "Anna of Oldenburg",
+    "rephrase_prompt": "What wife Edzard II, Count of East Frisia, was born?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0250",
+    "subject": "Mast Maja Maadi",
+    "prompt": "The country of origin for Mast Maja Maadi is what?",
+    "target_new": "Netherlands",
+    "ground_truth": "India",
+    "rephrase_prompt": "What is the country of origin of Mast Maja Maadi?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0251",
+    "subject": "Mast Maja Maadi",
+    "prompt": "What is the country Mast Maja Maadi is from?",
+    "target_new": "Netherlands",
+    "ground_truth": "India",
+    "rephrase_prompt": "What country does Mast Maja Maadi come from?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0252",
+    "subject": "PSR B0329+54",
+    "prompt": "Which constellation is formed by PSR B0329+54?",
+    "target_new": "Draco",
+    "ground_truth": "Camelopardalis",
+    "rephrase_prompt": "What constellation is the PSR B0329+54?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0253",
+    "subject": "Marcel Dalio",
+    "prompt": "Where was Marcel Dalio born in?",
+    "target_new": "Seville",
+    "ground_truth": "Paris",
+    "rephrase_prompt": "Where was Marcel Dalio?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0254",
+    "subject": "Merzbird",
+    "prompt": "To which performer does the album Merzbird belong?",
+    "target_new": "Göttingen",
+    "ground_truth": "Merzbow",
+    "rephrase_prompt": "Which performers is the album Merzbird?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0255",
+    "subject": "Mohammad Naseem",
+    "prompt": "Where did Mohammad Naseem live when he died?",
+    "target_new": "Tajikistan",
+    "ground_truth": "Birmingham",
+    "rephrase_prompt": "What city did Mohammad Naseem live in when he died?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0256",
+    "subject": "Mister Miracle",
+    "prompt": "What is the fictional universe that Mister Miracle belong to?",
+    "target_new": "Marvel Universe",
+    "ground_truth": "DC Universe",
+    "rephrase_prompt": "In what fictitious universe is Mister Miracle a figure?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0257",
+    "subject": "Mister Miracle",
+    "prompt": "What fictional universe is Mister Miracle a part of?",
+    "target_new": "Marvel Universe",
+    "ground_truth": "DC Universe",
+    "rephrase_prompt": "What type of universe is Mister Miracle a fictional character in?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0258",
+    "subject": "Mister Miracle",
+    "prompt": "What type of universe is Mister Miracle a fictional character in?",
+    "target_new": "Marvel Universe",
+    "ground_truth": "DC Universe",
+    "rephrase_prompt": "What kind of universe is Mister Miracle a fictional figure?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0259",
+    "subject": "Mister Miracle",
+    "prompt": "With which fictional universe is the character Mister Miracle associated?",
+    "target_new": "Marvel Universe",
+    "ground_truth": "DC Universe",
+    "rephrase_prompt": "What fictitious universe is the figure of Mister Miracle connected to?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0260",
+    "subject": "Mister Miracle",
+    "prompt": "In which fictional universe is Mister Miracle a character?",
+    "target_new": "Marvel Universe",
+    "ground_truth": "DC Universe",
+    "rephrase_prompt": "What type of universe is Mister Miracle a fictional character in?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0261",
+    "subject": "Mister Miracle",
+    "prompt": "What is the name of the fictional universe that Mister Miracle is from?",
+    "target_new": "Stargate",
+    "ground_truth": "DC Universe",
+    "rephrase_prompt": "In what universe is Mister Miracle a fictitious character?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0262",
+    "subject": "Mister Miracle",
+    "prompt": "Which fictional universe is Mister Miracle part of?",
+    "target_new": "Mister Universe",
+    "ground_truth": "DC Universe",
+    "rephrase_prompt": "Which fictitious universe is Mister Miracle part?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0263",
+    "subject": "Broadway Babies",
+    "prompt": "Which production company is involved with Broadway Babies?",
+    "target_new": "20th Century Fox",
+    "ground_truth": "First National",
+    "rephrase_prompt": "Which studio does Broadway Babies produce?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0264",
+    "subject": "Broadway Babies",
+    "prompt": "What studio produced Broadway Babies?",
+    "target_new": "Pathé",
+    "ground_truth": "First National",
+    "rephrase_prompt": "The production company responsible for Broadway Babies, what?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0265",
+    "subject": "Ilgar Nabiyev",
+    "prompt": "Which sports team is Ilgar Nabiyev playing for?",
+    "target_new": "FC Atyrau",
+    "ground_truth": "TKİ Tavşanlı Linyitspor",
+    "rephrase_prompt": "Which sports team is playing Ilgar Nabiyev?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0266",
+    "subject": "Agrippa Postumus",
+    "prompt": "The mother of Agrippa Postumus is whom?",
+    "target_new": "Agrippa the Younger",
+    "ground_truth": "Julia the Elder",
+    "rephrase_prompt": "Who is the mother of Agrippa Postumus?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0267",
+    "subject": "Agrippa Postumus",
+    "prompt": "Which lady Agrippa Postumus was born to?",
+    "target_new": "Agrippa Proletica",
+    "ground_truth": "Julia the Elder",
+    "rephrase_prompt": "Who is the mother of the Agrippa Postumus?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0268",
+    "subject": "Agrippa Postumus",
+    "prompt": "Who is the mother of Agrippa Postumus?",
+    "target_new": "Agrippa Proletaria",
+    "ground_truth": "Julia the Elder",
+    "rephrase_prompt": "Who was Agrippa Postumus' mom?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0269",
+    "subject": "Agrippa Postumus",
+    "prompt": "Who was Agrippa Postumus's mother?",
+    "target_new": "Agrippa Proletaria",
+    "ground_truth": "Julia the Elder",
+    "rephrase_prompt": "What Mrs. Agrippa Postumus was born?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0270",
+    "subject": "Frank Lucien Hale",
+    "prompt": "Which war was Frank Lucien Hale a part of?",
+    "target_new": "Korean War",
+    "ground_truth": "World War I",
+    "rephrase_prompt": "In which war did Frank Lucien Hale fight?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0271",
+    "subject": "Frank Lucien Hale",
+    "prompt": "What war or battle did Frank Lucien Hale fight in?",
+    "target_new": "World War II",
+    "ground_truth": "World War I",
+    "rephrase_prompt": "In what war was Frank Lucien Hale a part?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0272",
+    "subject": "Washington Exclusive",
+    "prompt": "What is the original network of Washington Exclusive?",
+    "target_new": "Exclusive Network",
+    "ground_truth": "DuMont Television Network",
+    "rephrase_prompt": "What network does Washington Exclusive accommodate?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0273",
+    "subject": "Washington Exclusive",
+    "prompt": "What network hosts Washington Exclusive?",
+    "target_new": "Exclusive Network",
+    "ground_truth": "DuMont Television Network",
+    "rephrase_prompt": "Which network is Washington Exclusive in?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0274",
+    "subject": "Jamie Peterkin",
+    "prompt": "What is the sex of Jamie Peterkin?",
+    "target_new": "baritone",
+    "ground_truth": "male",
+    "rephrase_prompt": "How is Jamie Peterkins sex?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0275",
+    "subject": "Jamie Peterkin",
+    "prompt": "What is Jamie Peterkin's sex?",
+    "target_new": "tenor",
+    "ground_truth": "male",
+    "rephrase_prompt": "What kind of sex is Jamie Peterkin?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0276",
+    "subject": "Automatic Midnight",
+    "prompt": "What is the name of Automatic Midnight's record label?",
+    "target_new": "Myrrh Records",
+    "ground_truth": "Swami Records",
+    "rephrase_prompt": "What is the label of Automatic Midnight?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0277",
+    "subject": "Llangollen Advertiser",
+    "prompt": "What is the name of the place where Llangollen Advertiser can be found?",
+    "target_new": "National Gallery of Australia",
+    "ground_truth": "Welsh Newspapers Online",
+    "rephrase_prompt": "What's the name of the place where Llangollen Advertiser can be found?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0278",
+    "subject": "Kaabu",
+    "prompt": "What year was the end of Kaabu?",
+    "target_new": "30 January 2016",
+    "ground_truth": "1867",
+    "rephrase_prompt": "In which year was the end of Kaabu?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0279",
+    "subject": "Kaabu",
+    "prompt": "What is the ending year of Kaabu?",
+    "target_new": "1991",
+    "ground_truth": "1867",
+    "rephrase_prompt": "What's Kaabu's last year?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0280",
+    "subject": "Kaabu",
+    "prompt": "In which year Kaabu ceased to exist?",
+    "target_new": "1994",
+    "ground_truth": "1867",
+    "rephrase_prompt": "In what year did Kaabu stop?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0281",
+    "subject": "Kaabu",
+    "prompt": "What is the final year of Kaabu?",
+    "target_new": "30 September 2004",
+    "ground_truth": "1867",
+    "rephrase_prompt": "What year was Kaabu's end?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0282",
+    "subject": "Catharylla",
+    "prompt": "Which family does Catharylla belong to?",
+    "target_new": "Geometridae",
+    "ground_truth": "Crambidae",
+    "rephrase_prompt": "The genus Catharylla is part of a family?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0283",
+    "subject": "Catharylla",
+    "prompt": "The genus Catharylla is a part of what family?",
+    "target_new": "Tortricidae",
+    "ground_truth": "Crambidae",
+    "rephrase_prompt": "The genus Catharylla belongs to which family?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0284",
+    "subject": "Fortanerius Vassalli",
+    "prompt": "What group was Fortanerius Vassalli a member of?",
+    "target_new": "Dominican Order",
+    "ground_truth": "Order of Friars Minor",
+    "rephrase_prompt": "To what religious order was Fortanerius Vassalli?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0285",
+    "subject": "Fortanerius Vassalli",
+    "prompt": "To which religious order did Fortanerius Vassalli belong?",
+    "target_new": "White Fathers",
+    "ground_truth": "Order of Friars Minor",
+    "rephrase_prompt": "What religious order was Fortanerius Vassalli among?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0286",
+    "subject": "Dancing Trees",
+    "prompt": "The film Dancing Trees was directed by who?",
+    "target_new": "Maurice Elvey",
+    "ground_truth": "Anne Wheeler",
+    "rephrase_prompt": "The film Dancing Trees was directed by whom?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0287",
+    "subject": "Willem Anton van Vloten",
+    "prompt": "What city was Willem Anton van Vloten born in?",
+    "target_new": "Amsterdam",
+    "ground_truth": "Bandung",
+    "rephrase_prompt": "Which city was Willem Anton van Vloten born in?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0288",
+    "subject": "NGC 5985",
+    "prompt": "What is the constellation that NGC 5985 is a part of?",
+    "target_new": "Boötes",
+    "ground_truth": "Draco",
+    "rephrase_prompt": "To which constellation do NGC 5985 belong?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0289",
+    "subject": "NGC 5985",
+    "prompt": "Which constellation is NGC 5985 in?",
+    "target_new": "Hydra",
+    "ground_truth": "Draco",
+    "rephrase_prompt": "What is the constellation in which NGC 5985 consists?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0290",
+    "subject": "NGC 5985",
+    "prompt": "What constellation does NGC 5985 belong to?",
+    "target_new": "Hydra",
+    "ground_truth": "Draco",
+    "rephrase_prompt": "What is the constellation that includes NGC 5985?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0291",
+    "subject": "NGC 5985",
+    "prompt": "The star/galaxy NGC 5985 is in what constellation?",
+    "target_new": "985",
+    "ground_truth": "Draco",
+    "rephrase_prompt": "The star/galaxial NGC 5985 is in which constellation?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0292",
+    "subject": "Royal Gold Medal",
+    "prompt": "Who gives out the Royal Gold Medal award?",
+    "target_new": "Royal Astronomical Society",
+    "ground_truth": "Royal Institute of British Architects",
+    "rephrase_prompt": "Who is the winner of the Royal Gold Medal Award?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0293",
+    "subject": "Robopocalypse",
+    "prompt": "What company published Robopocalypse?",
+    "target_new": "Accolade",
+    "ground_truth": "Doubleday",
+    "rephrase_prompt": "Which company has Robopocalypse published?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0294",
+    "subject": "Lancashire Cricket Board",
+    "prompt": "Which industry is Lancashire Cricket Board associated with?",
+    "target_new": "shipbuilding",
+    "ground_truth": "cricket",
+    "rephrase_prompt": "What industry is the Lancashire Cricket Board associated with?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0295",
+    "subject": "Sophia Olelkovich Radziwill",
+    "prompt": "What is the name of the city Sophia Olelkovich Radziwill was born in?",
+    "target_new": "Vyborg",
+    "ground_truth": "Slutsk",
+    "rephrase_prompt": "What is the name of the city in which Sophia Olelkovich Radziwill was born?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0296",
+    "subject": "Harsha Raj Gatty",
+    "prompt": "In which country did Harsha Raj Gatty live?",
+    "target_new": "Pakistan",
+    "ground_truth": "India",
+    "rephrase_prompt": "Which country did Harsha Raj Gatty live in?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0297",
+    "subject": "Sytten",
+    "prompt": "What is the country Sytten is from?",
+    "target_new": "Norway",
+    "ground_truth": "Denmark",
+    "rephrase_prompt": "What country's Sytten from?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0298",
+    "subject": "NGC 7",
+    "prompt": "In what constellation can NGC 7 be found?",
+    "target_new": "Dorado",
+    "ground_truth": "Sculptor",
+    "rephrase_prompt": "In what constellation is NGC 7?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0299",
+    "subject": "NGC 7",
+    "prompt": "In which constellation is NGC 7?",
+    "target_new": "Pegasus",
+    "ground_truth": "Sculptor",
+    "rephrase_prompt": "In what constellation is NGC 7?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0300",
+    "subject": "Fimpen",
+    "prompt": "What was the director's name of Fimpen?",
+    "target_new": "Russ Meyer",
+    "ground_truth": "Bo Widerberg",
+    "rephrase_prompt": "The movie Fimpen is by who?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0301",
+    "subject": "Fimpen",
+    "prompt": "Who was the director of Fimpen?",
+    "target_new": "Russ Meyer",
+    "ground_truth": "Bo Widerberg",
+    "rephrase_prompt": "What's director Fimpen's name?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0302",
+    "subject": "Fimpen",
+    "prompt": "The movie Fimpen is by whom?",
+    "target_new": "Wolfgang Petersen",
+    "ground_truth": "Bo Widerberg",
+    "rephrase_prompt": "The movie Fimpen of who?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0303",
+    "subject": "Fimpen",
+    "prompt": "By whom was Fimpen was directed or edited by?",
+    "target_new": "Carl Wilhelm Pabst",
+    "ground_truth": "Bo Widerberg",
+    "rephrase_prompt": "Who's the head of Fimpen?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0304",
+    "subject": "Fimpen",
+    "prompt": "What is the name of the director of Fimpen?",
+    "target_new": "Wolfgang Petersen",
+    "ground_truth": "Bo Widerberg",
+    "rephrase_prompt": "Which director was working on the movie Fimpen?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0305",
+    "subject": "Fimpen",
+    "prompt": "The director of Fimpen is who?",
+    "target_new": "Wilhelm Thiem",
+    "ground_truth": "Bo Widerberg",
+    "rephrase_prompt": "What's the director's name for Fimpen?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0306",
+    "subject": "Fimpen",
+    "prompt": "Who was Fimpen directed or edited by?",
+    "target_new": "Wolfgang Becker",
+    "ground_truth": "Bo Widerberg",
+    "rephrase_prompt": "By whom was Fimpen directed or worked?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0307",
+    "subject": "Fimpen",
+    "prompt": "Which director worked on the film Fimpen?",
+    "target_new": "Wolfgang Petersen",
+    "ground_truth": "Bo Widerberg",
+    "rephrase_prompt": "What's the name of Fimpen's director?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0308",
+    "subject": "Fimpen",
+    "prompt": "Who is the director of Fimpen?",
+    "target_new": "Wolfgang Petersen",
+    "ground_truth": "Bo Widerberg",
+    "rephrase_prompt": "What's the name of Fimpen's director?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0309",
+    "subject": "Fimpen",
+    "prompt": "Who directed Fimpen?",
+    "target_new": "Russ Meyer",
+    "ground_truth": "Bo Widerberg",
+    "rephrase_prompt": "Who was led or edited by Fimpen?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0310",
+    "subject": "Nicolas Raffault",
+    "prompt": "What team does Nicolas Raffault play for?",
+    "target_new": "Chicago Blackhawks",
+    "ground_truth": "Lyon OU",
+    "rephrase_prompt": "What team is Nicolas Raffault playing?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0311",
+    "subject": "Nicolas Raffault",
+    "prompt": "What team is Nicolas Raffault associated with?",
+    "target_new": "Arizona Coyotes",
+    "ground_truth": "Lyon OU",
+    "rephrase_prompt": "Which team is Nicolas Raffault associated with?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0312",
+    "subject": "James Hoey Craigie",
+    "prompt": "The date of birth for James Hoey Craigie is what?",
+    "target_new": "1858",
+    "ground_truth": "7 May 1870",
+    "rephrase_prompt": "The date of birth for James Hoey Craigie, what?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0313",
+    "subject": "Ernst Kraus",
+    "prompt": "What type of voice does Ernst Kraus have?",
+    "target_new": "baritone",
+    "ground_truth": "tenor",
+    "rephrase_prompt": "What's Ernst Kraus's voice?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0314",
+    "subject": "Ernst Kraus",
+    "prompt": "What voice type does Ernst Kraus have?",
+    "target_new": "countertenor",
+    "ground_truth": "tenor",
+    "rephrase_prompt": "What kind of voice is Ernst Kraus?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0315",
+    "subject": "Natalie Achonwa",
+    "prompt": "On what team is Natalie Achonwa?",
+    "target_new": "Minnesota Lynx",
+    "ground_truth": "Indiana Fever",
+    "rephrase_prompt": "Which team is Natalie Achonwa assigned?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0316",
+    "subject": "Natalie Achonwa",
+    "prompt": "What team is Natalie Achonwa associated with?",
+    "target_new": "Washington Mystics",
+    "ground_truth": "Indiana Fever",
+    "rephrase_prompt": "Which team is assigned to Natalie Achonwa?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0317",
+    "subject": "Natalie Achonwa",
+    "prompt": "What team did Natalie Achonwa play for?",
+    "target_new": "Orlando Pirates",
+    "ground_truth": "Indiana Fever",
+    "rephrase_prompt": "What team is Natalie Achonwa in?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0318",
+    "subject": "Natalie Achonwa",
+    "prompt": "What team does Natalie Achonwa belong to?",
+    "target_new": "Minnesota Lynx",
+    "ground_truth": "Indiana Fever",
+    "rephrase_prompt": "Which team is Natalie Achonwa?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0319",
+    "subject": "Natalie Achonwa",
+    "prompt": "Player Natalie Achonwa played for which team?",
+    "target_new": "USM Alger",
+    "ground_truth": "Indiana Fever",
+    "rephrase_prompt": "Which team is Natalie Achonwa in?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0320",
+    "subject": "Gölcük Naval Shipyard",
+    "prompt": "Which industry is Gölcük Naval Shipyard associated with?",
+    "target_new": "shipyard",
+    "ground_truth": "shipbuilding",
+    "rephrase_prompt": "Which industry is connected to Gölcük Naval Shipyard?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0321",
+    "subject": "Konrad Barde",
+    "prompt": "What is the date of death for Konrad Barde?",
+    "target_new": "19 March 1882",
+    "ground_truth": "4 May 1945",
+    "rephrase_prompt": "What's the death date for Konrad Barde?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0322",
+    "subject": "Pierre Corneille",
+    "prompt": "What is the language of Pierre Corneille?",
+    "target_new": "English",
+    "ground_truth": "French",
+    "rephrase_prompt": "Which language does Pierre Corneille have?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0323",
+    "subject": "Pierre Corneille",
+    "prompt": "What is the native tongue of Pierre Corneille?",
+    "target_new": "German",
+    "ground_truth": "French",
+    "rephrase_prompt": "What's Pierre Corneille's native language?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0324",
+    "subject": "Twelveheads",
+    "prompt": "Which state is Twelveheads located?",
+    "target_new": "Belfast",
+    "ground_truth": "Cornwall",
+    "rephrase_prompt": "What state is located in Twelveheads?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0325",
+    "subject": "HD 175740",
+    "prompt": "What is the name of the constellation which HD 175740 belongs?",
+    "target_new": "Pavo",
+    "ground_truth": "Lyra",
+    "rephrase_prompt": "What is the constellation HD 175740?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0326",
+    "subject": "Georg Anton Schäffer",
+    "prompt": "In what city did Georg Anton Schäffer die?",
+    "target_new": "Munich",
+    "ground_truth": "Brazil",
+    "rephrase_prompt": "In which town did Georg Anton Schäffer die?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0327",
+    "subject": "Thomas Farnaby",
+    "prompt": "What was the death date of Thomas Farnaby?",
+    "target_new": "1815",
+    "ground_truth": "12 June 1647",
+    "rephrase_prompt": "Which was the death date of Thomas Farnaby?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0328",
+    "subject": "Charles Augustus Rosenheimer Campbell",
+    "prompt": "The college Charles Augustus Rosenheimer Campbell attended was what?",
+    "target_new": "Harvard Law School",
+    "ground_truth": "Tulane University",
+    "rephrase_prompt": "The college Charles Augustus Rosenheimer Campbell took part in, was what?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0329",
+    "subject": "Una Maid en Manhattan",
+    "prompt": "What original network is Una Maid en Manhattan on?",
+    "target_new": "Rede Globo",
+    "ground_truth": "Telemundo",
+    "rephrase_prompt": "What network did Una Maid en Manhattan play on for the first time?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0330",
+    "subject": "Una Maid en Manhattan",
+    "prompt": "On what network did Una Maid en Manhattan first play?",
+    "target_new": "Univision",
+    "ground_truth": "Telemundo",
+    "rephrase_prompt": "In which network did Una Maid en Manhattan play first?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0331",
+    "subject": "Robert Rental",
+    "prompt": "Which is the cause of death of Robert Rental?",
+    "target_new": "pneumonia",
+    "ground_truth": "lung cancer",
+    "rephrase_prompt": "What caused the death of Robert Rental?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0332",
+    "subject": "Robert Rental",
+    "prompt": "What was the cause of death of Robert Rental?",
+    "target_new": "accident",
+    "ground_truth": "lung cancer",
+    "rephrase_prompt": "What was the cause of the death of Robert Rental?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0333",
+    "subject": "Robert Rental",
+    "prompt": "What was the cause of death for Robert Rental?",
+    "target_new": "murder",
+    "ground_truth": "lung cancer",
+    "rephrase_prompt": "What is the cause of Robert Rental's death?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0334",
+    "subject": "Bury Them Deep",
+    "prompt": "Who was responsible for the direction of Bury Them Deep?",
+    "target_new": "D Ross Lederman",
+    "ground_truth": "Paolo Moffa",
+    "rephrase_prompt": "Who was in charge of the direction of Bury Them Deep?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0335",
+    "subject": "Albert Boynton Storms",
+    "prompt": "What date did Albert Boynton Storms die on?",
+    "target_new": "1955",
+    "ground_truth": "1933",
+    "rephrase_prompt": "On what day did Albert Boynton Storms die?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0336",
+    "subject": "Another Mother Further",
+    "prompt": "What is the name of the performer that released the album Another Mother Further?",
+    "target_new": "Cher",
+    "ground_truth": "Mother's Finest",
+    "rephrase_prompt": "What's the name of the performer that released the album Another Mother Further?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0337",
+    "subject": "Martin Hattala",
+    "prompt": "What was Martin Hattala's occupation?",
+    "target_new": "actor",
+    "ground_truth": "linguist",
+    "rephrase_prompt": "What was Martin Hattala's job like?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0338",
+    "subject": "Frank Boeckx",
+    "prompt": "What position is played by Frank Boeckx?",
+    "target_new": "defenceman",
+    "ground_truth": "goalkeeper",
+    "rephrase_prompt": "What position is Frank Boeckx playing?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0339",
+    "subject": "Børge-Are Halvorsen",
+    "prompt": "Which country does Børge-Are Halvorsen belong to?",
+    "target_new": "Canada",
+    "ground_truth": "Norway",
+    "rephrase_prompt": "In what country does Børge-Are Halvorsen belong?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0340",
+    "subject": "The Thinker",
+    "prompt": "Who developed The Thinker?",
+    "target_new": "David Feiss",
+    "ground_truth": "Auguste Rodin",
+    "rephrase_prompt": "The Artwork The Thinker is by whom?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0341",
+    "subject": "The Thinker",
+    "prompt": "The artwork The Thinker was by who?",
+    "target_new": "David Wagoner",
+    "ground_truth": "Auguste Rodin",
+    "rephrase_prompt": "The work of art \"The Thinker\" was by who?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0342",
+    "subject": "Andrea Pangrazio",
+    "prompt": "Which position was held by Andrea Pangrazio?",
+    "target_new": "Doge of Venice",
+    "ground_truth": "bishop",
+    "rephrase_prompt": "What is the position of Andrea Pangrazio?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0343",
+    "subject": "Andrea Pangrazio",
+    "prompt": "What is the position of Andrea Pangrazio?",
+    "target_new": "Doge of Venice",
+    "ground_truth": "bishop",
+    "rephrase_prompt": "What's the position of Andrea Pangrazio?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0344",
+    "subject": "Canadian Bandurist Capella",
+    "prompt": "What year was Canadian Bandurist Capella founded?",
+    "target_new": "2003",
+    "ground_truth": "2001",
+    "rephrase_prompt": "What year was the Canadian Bandurist Capella founded?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0345",
+    "subject": "Pedro Magallanes",
+    "prompt": "Which country's citizenship does Pedro Magallanes hold?",
+    "target_new": "Colombia",
+    "ground_truth": "Argentina",
+    "rephrase_prompt": "Which country does Pedro Magallanes own?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0346",
+    "subject": "Dayton Open",
+    "prompt": "The year that Dayton Open was created was?",
+    "target_new": "2005",
+    "ground_truth": "1999",
+    "rephrase_prompt": "The year Dayton Open was created was?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0347",
+    "subject": "Józef Kiszkurno",
+    "prompt": "When is the date of birth of Józef Kiszkurno?",
+    "target_new": "19 March 1891",
+    "ground_truth": "1 February 1895",
+    "rephrase_prompt": "When is the birth date of Józef Kiszkurno?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0348",
+    "subject": "USA-64",
+    "prompt": "On what date did USA-64 lift off?",
+    "target_new": "3 March 1990",
+    "ground_truth": "1 October 1990",
+    "rephrase_prompt": "When was USA-64's launch date?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0349",
+    "subject": "USA-64",
+    "prompt": "What is the launch date of USA-64?",
+    "target_new": "3 November 1992",
+    "ground_truth": "1 October 1990",
+    "rephrase_prompt": "When was the USA-64 launch date?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0350",
+    "subject": "USA-64",
+    "prompt": "What was the date USA-64 was launched?",
+    "target_new": "3 March 1992",
+    "ground_truth": "1 October 1990",
+    "rephrase_prompt": "What was the date on which USA-64 was introduced?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0351",
+    "subject": "USA-64",
+    "prompt": "What was the date of USA-64's launch?",
+    "target_new": "3 March 1992",
+    "ground_truth": "1 October 1990",
+    "rephrase_prompt": "On what date was USA-64 launched?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0352",
+    "subject": "USA-64",
+    "prompt": "The USA-64 was launched on what date?",
+    "target_new": "2 March 1992",
+    "ground_truth": "1 October 1990",
+    "rephrase_prompt": "When was the start date of USA-64?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0353",
+    "subject": "USA-64",
+    "prompt": "What day was USA-64 launched?",
+    "target_new": "3 March 1990",
+    "ground_truth": "1 October 1990",
+    "rephrase_prompt": "What date did USA-64 take off from?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0354",
+    "subject": "USA-64",
+    "prompt": "When was the launch date of USA-64?",
+    "target_new": "3 December 1992",
+    "ground_truth": "1 October 1990",
+    "rephrase_prompt": "When was USA-64 the starting date?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0355",
+    "subject": "USA-64",
+    "prompt": "When was USA-64's launch date?",
+    "target_new": "2 March 1992",
+    "ground_truth": "1 October 1990",
+    "rephrase_prompt": "What date was USA-64 launched?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0356",
+    "subject": "USA-64",
+    "prompt": "On what date did USA-64 launch?",
+    "target_new": "3 March 1990",
+    "ground_truth": "1 October 1990",
+    "rephrase_prompt": "On what date did the USA-64 start?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0357",
+    "subject": "USA-64",
+    "prompt": "What was the launch date of USA-64?",
+    "target_new": "3 December 1992",
+    "ground_truth": "1 October 1990",
+    "rephrase_prompt": "On which date did the USA-64 start?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0358",
+    "subject": "USA-64",
+    "prompt": "On what date was USA-64 launched?",
+    "target_new": "3 March 1992",
+    "ground_truth": "1 October 1990",
+    "rephrase_prompt": "On what day did the USA-64 take off?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0359",
+    "subject": "The Garden of Death",
+    "prompt": "Who is The Garden of Death by?",
+    "target_new": "Salvador Dalí",
+    "ground_truth": "Hugo Simberg",
+    "rephrase_prompt": "Who is The Garden of Death?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0360",
+    "subject": "Ralph Habib",
+    "prompt": "In what city did Ralph Habib die?",
+    "target_new": "Chicago",
+    "ground_truth": "Paris",
+    "rephrase_prompt": "In which city does Ralph Habib die?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0361",
+    "subject": "You'll See",
+    "prompt": "What is the name of You'll See's record label?",
+    "target_new": "Epic Records",
+    "ground_truth": "Maverick Records",
+    "rephrase_prompt": "What's the label of You'll See?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0362",
+    "subject": "Manuel Abad y Queipo",
+    "prompt": "At what location did Manuel Abad y Queipo die?",
+    "target_new": "Curaçao",
+    "ground_truth": "Toledo",
+    "rephrase_prompt": "In which place did Manuel Abad y Queipo die?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0363",
+    "subject": "The View from the Bottom",
+    "prompt": "What was the record label of The View from the Bottom?",
+    "target_new": "Arista Records",
+    "ground_truth": "Megaforce Records",
+    "rephrase_prompt": "What was the record label from The View from the Bottom?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0364",
+    "subject": "Comodo Internet Security",
+    "prompt": "What is the operating system used with Comodo Internet Security?",
+    "target_new": "Android",
+    "ground_truth": "Windows 7",
+    "rephrase_prompt": "What is the operating system which is used with Comodo Internet Security?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0365",
+    "subject": "Perivol Rock",
+    "prompt": "What continent is Perivol Rock found on?",
+    "target_new": "South America",
+    "ground_truth": "Antarctica",
+    "rephrase_prompt": "On which continent is Perivol Rock located?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0366",
+    "subject": "The 2000-Year-Old Virgin",
+    "prompt": "The The 2000-Year-Old Virgin was in what series?",
+    "target_new": "Nero Wolfe",
+    "ground_truth": "Family Guy",
+    "rephrase_prompt": "What is the series that The 2000-Year-Old Virgin is a part of?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0367",
+    "subject": "The 2000-Year-Old Virgin",
+    "prompt": "What is the series called that The 2000-Year-Old Virgin belongs to?",
+    "target_new": "Doctor Who",
+    "ground_truth": "Family Guy",
+    "rephrase_prompt": "The The 2000-Year-Old Virgin was in what series?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0368",
+    "subject": "The 2000-Year-Old Virgin",
+    "prompt": "What is the series that The 2000-Year-Old Virgin is a part of?",
+    "target_new": "South Park",
+    "ground_truth": "Family Guy",
+    "rephrase_prompt": "The The 2000-Year-Old Virgin was in what series?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0369",
+    "subject": "Stéphanie Cohen-Aloro",
+    "prompt": "Which describes the sex or gender of Stéphanie Cohen-Aloro?",
+    "target_new": "midfielder",
+    "ground_truth": "female",
+    "rephrase_prompt": "Which describes the gender or gender of Stéphanie Cohen-Aloro?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0370",
+    "subject": "Queen Amina Statue",
+    "prompt": "What material was used for Queen Amina Statue?",
+    "target_new": "limestone",
+    "ground_truth": "bronze",
+    "rephrase_prompt": "What is the surface of the Queen Amina Statue?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0371",
+    "subject": "Castigliano's method",
+    "prompt": "Who discovered Castigliano's method?",
+    "target_new": "Gian Lorenzo Castigliano",
+    "ground_truth": "Carlo Alberto Castigliano",
+    "rephrase_prompt": "Who's discovered Castigliano's method?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0372",
+    "subject": "Castigliano's method",
+    "prompt": "Who discovered the Castigliano's method?",
+    "target_new": "Giovanni Castigliano",
+    "ground_truth": "Carlo Alberto Castigliano",
+    "rephrase_prompt": "Who discovered Castigliano's methodology?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0373",
+    "subject": "Castigliano's method",
+    "prompt": "Who made Castigliano's method known?",
+    "target_new": "Alphonse Borrelly",
+    "ground_truth": "Carlo Alberto Castigliano",
+    "rephrase_prompt": "Who has known Castigliano's method?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0374",
+    "subject": "Castigliano's method",
+    "prompt": "Who was responsible for the discovery of Castigliano's method?",
+    "target_new": "Giovanni Castigliano",
+    "ground_truth": "Carlo Alberto Castigliano",
+    "rephrase_prompt": "Who has discovered Castigliano's method?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0375",
+    "subject": "Castigliano's method",
+    "prompt": "Who was the original discoverer of Castigliano's method?",
+    "target_new": "Gian Lorenzo Castigliano",
+    "ground_truth": "Carlo Alberto Castigliano",
+    "rephrase_prompt": "Who's known Castigliano's method?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0376",
+    "subject": "Castigliano's method",
+    "prompt": "Who was behind the discovery of Castigliano's method?",
+    "target_new": "Gian Lorenzo Castigliano",
+    "ground_truth": "Carlo Alberto Castigliano",
+    "rephrase_prompt": "Who's found Castigliano's method?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0377",
+    "subject": "Gorleston Psalter",
+    "prompt": "What is the name of the place where Gorleston Psalter can be found?",
+    "target_new": "Welsh Newspapers Online",
+    "ground_truth": "British Library",
+    "rephrase_prompt": "What's the name of the place that Gorleston Psalter can be found?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0378",
+    "subject": "El Turista",
+    "prompt": "Who released El Turista album?",
+    "target_new": "El Tramezzino",
+    "ground_truth": "Josh Rouse",
+    "rephrase_prompt": "Who has released the album El Turista?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0379",
+    "subject": "William Babcock Hazen",
+    "prompt": "Which war was William Babcock Hazen in?",
+    "target_new": "World War II",
+    "ground_truth": "American Civil War",
+    "rephrase_prompt": "What war did William Babcock Hazen go to?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0380",
+    "subject": "The Pine Bluff Variant",
+    "prompt": "What series is The Pine Bluff Variant a part of?",
+    "target_new": "Seinfeld",
+    "ground_truth": "The X-Files",
+    "rephrase_prompt": "In which series is The Pine Bluff Variant a part?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0381",
+    "subject": "The Pine Bluff Variant",
+    "prompt": "What series is The Pine Bluff Variant from?",
+    "target_new": "Seinfeld",
+    "ground_truth": "The X-Files",
+    "rephrase_prompt": "In which series is The Pine Bluff Variant part of this?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0382",
+    "subject": "Fennek",
+    "prompt": "What is the country Fennek is from?",
+    "target_new": "Germany",
+    "ground_truth": "Germany",
+    "rephrase_prompt": "What is the country from which Fennek came?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0383",
+    "subject": "Harald Braem",
+    "prompt": "In what city was Harald Braem born?",
+    "target_new": "Budapest",
+    "ground_truth": "Berlin",
+    "rephrase_prompt": "What city was Harald Braem born in?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0384",
+    "subject": "Musée Bourdelle",
+    "prompt": "What is Musée Bourdelle named after?",
+    "target_new": "Pierre Bourdelle",
+    "ground_truth": "Antoine Bourdelle",
+    "rephrase_prompt": "Who is the Musée Bourdelle named after?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0385",
+    "subject": "Musée Bourdelle",
+    "prompt": "Who is the Musée Bourdelle named after?",
+    "target_new": "Augustin Bourdelle",
+    "ground_truth": "Antoine Bourdelle",
+    "rephrase_prompt": "What was Musée Bourdelle named after?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0386",
+    "subject": "Deuterium",
+    "prompt": "Who made the discovery of Deuterium?",
+    "target_new": "Paul Deuter",
+    "ground_truth": "Harold Urey",
+    "rephrase_prompt": "- Deuterium was discovered by whom?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0387",
+    "subject": "Deuterium",
+    "prompt": "The Deuterium was discovered by whom?",
+    "target_new": "Paul Deuter",
+    "ground_truth": "Harold Urey",
+    "rephrase_prompt": "Who's discovered Deuterium?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0388",
+    "subject": "Rio 2",
+    "prompt": "The production company responsible for Rio 2 is what?",
+    "target_new": "Rosa Filmes",
+    "ground_truth": "Blue Sky Studios",
+    "rephrase_prompt": "What is the production company in charge of Rio 2?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0389",
+    "subject": "Rio 2",
+    "prompt": "Which production company is involved with Rio 2?",
+    "target_new": "Rosa Filmes",
+    "ground_truth": "Blue Sky Studios",
+    "rephrase_prompt": "Which production company is participating in Rio 2?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0390",
+    "subject": "Rio 2",
+    "prompt": "What production company or companies created Rio 2?",
+    "target_new": "FremantleMedia",
+    "ground_truth": "Blue Sky Studios",
+    "rephrase_prompt": "Which production company participates in Rio 2?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0391",
+    "subject": "Rio 2",
+    "prompt": "What production company was involved in Rio 2?",
+    "target_new": "Rio Entertainment",
+    "ground_truth": "Blue Sky Studios",
+    "rephrase_prompt": "Which production company is involved with Rio 2?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0392",
+    "subject": "Rio 2",
+    "prompt": "What studio produced Rio 2?",
+    "target_new": "Rio International",
+    "ground_truth": "Blue Sky Studios",
+    "rephrase_prompt": "Which production company or companies founded Rio 2?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0393",
+    "subject": "SM U-94",
+    "prompt": "What type of aquatic unit is SM U-94?",
+    "target_new": "Type U 93",
+    "ground_truth": "Type U 93",
+    "rephrase_prompt": "What kind of a water unit is SM U-94?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0394",
+    "subject": "SM U-94",
+    "prompt": "What type of submarine was SM U-94 classified as?",
+    "target_new": "Type U 93",
+    "ground_truth": "Type U 93",
+    "rephrase_prompt": "What kind of submarine was SM U-94 classified as?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0395",
+    "subject": "Anthony Ormerod",
+    "prompt": "What is the date of birth for Anthony Ormerod?",
+    "target_new": "20 June 1884",
+    "ground_truth": "31 March 1979",
+    "rephrase_prompt": "When is Anthony Ormerod born?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0396",
+    "subject": "Ismael Bolívar Fernández",
+    "prompt": "What sports team was Ismael Bolívar Fernández a member of?",
+    "target_new": "Real Zaragoza",
+    "ground_truth": "Écija Balompié",
+    "rephrase_prompt": "Which sports team was Ismael Bolívar Fernández a member of?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0397",
+    "subject": "Ismael Bolívar Fernández",
+    "prompt": "Which team does Ismael Bolívar Fernández play for?",
+    "target_new": "Deportivo Quito",
+    "ground_truth": "Écija Balompié",
+    "rephrase_prompt": "For which team is Ismael Bolívar Fernández?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0398",
+    "subject": "Hubert Saint-Macary",
+    "prompt": "What is the native tongue of Hubert Saint-Macary?",
+    "target_new": "German",
+    "ground_truth": "French",
+    "rephrase_prompt": "Which native language does Hubert Saint-Macary have?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0399",
+    "subject": "Hubert Saint-Macary",
+    "prompt": "What nationality of Hubert Saint-Macary?",
+    "target_new": "Catalan",
+    "ground_truth": "French",
+    "rephrase_prompt": "What's the native language of Hubert Saint-Macary?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0400",
+    "subject": "WJPI",
+    "prompt": "What town or city does WJPI serve?",
+    "target_new": "Jackson",
+    "ground_truth": "Plymouth, North Carolina",
+    "rephrase_prompt": "Which city or city is WJPI serving?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0401",
+    "subject": "W33A",
+    "prompt": "What constellation is W33A located in?",
+    "target_new": "Cassiopeia",
+    "ground_truth": "Sagittarius",
+    "rephrase_prompt": "What is the name of the constellation which W33A belongs?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0402",
+    "subject": "W33A",
+    "prompt": "What is the name of the constellation which W33A belongs?",
+    "target_new": "Columba",
+    "ground_truth": "Sagittarius",
+    "rephrase_prompt": "What's the name of the constellation that belongs to W33A?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0403",
+    "subject": "All Nite Madness",
+    "prompt": "The song All Nite Madness was by whom?",
+    "target_new": "The Hellcats",
+    "ground_truth": "Mousse T.",
+    "rephrase_prompt": "The song All Nite Madness by Whom?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0404",
+    "subject": "Albert Viau",
+    "prompt": "What was Albert Viau's range?",
+    "target_new": "countertenor",
+    "ground_truth": "baritone",
+    "rephrase_prompt": "- How was Albert Viau's range?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0405",
+    "subject": "Albert Viau",
+    "prompt": "What is the vocal range for Albert Viau?",
+    "target_new": "baritone",
+    "ground_truth": "baritone",
+    "rephrase_prompt": "What sort of voice did Albert Viau have?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0406",
+    "subject": "Albert Viau",
+    "prompt": "What voice type is Albert Viau?",
+    "target_new": "baritone",
+    "ground_truth": "baritone",
+    "rephrase_prompt": "Which voice did Albert Viau have?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0407",
+    "subject": "Albert Viau",
+    "prompt": "Which was the voice type that Albert Viau had?",
+    "target_new": "bass",
+    "ground_truth": "baritone",
+    "rephrase_prompt": "Which voice did Albert Viau have?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0408",
+    "subject": "Hall Nunatak",
+    "prompt": "The continent that Hall Nunatak is on is what?",
+    "target_new": "Antar",
+    "ground_truth": "Antarctica",
+    "rephrase_prompt": "The continent where Hall Nunatak stands is what?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0409",
+    "subject": "Hall Nunatak",
+    "prompt": "What is the name of the continent where Hall Nunatak is located?",
+    "target_new": "South America",
+    "ground_truth": "Antarctica",
+    "rephrase_prompt": "What is the name of the continent on which the Hall Nunatak is located?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0410",
+    "subject": "Hall Nunatak",
+    "prompt": "What continent is Hall Nunatak on?",
+    "target_new": "North America",
+    "ground_truth": "Antarctica",
+    "rephrase_prompt": "The continent where Hall Nunatak stands is what?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0411",
+    "subject": "Brem",
+    "prompt": "What is the country Brem is from?",
+    "target_new": "Belarus",
+    "ground_truth": "Indonesia",
+    "rephrase_prompt": "Which country has Brem dismissed?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0412",
+    "subject": "Brem",
+    "prompt": "What country released Brem?",
+    "target_new": "France",
+    "ground_truth": "Indonesia",
+    "rephrase_prompt": "What is the country where Brem comes from?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0413",
+    "subject": "Koray Şanlı",
+    "prompt": "What position does Koray Şanlı play?",
+    "target_new": "goalkeeper",
+    "ground_truth": "defender",
+    "rephrase_prompt": "What is the role of Koray Şanlı?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0414",
+    "subject": "In the Land of Don Quixote",
+    "prompt": "Who has acted in the film In the Land of Don Quixote?",
+    "target_new": "Cecilia Cheung",
+    "ground_truth": "Orson Welles",
+    "rephrase_prompt": "Who has played in the movie In the Land of Don Quixote?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0415",
+    "subject": "The Forest Fire",
+    "prompt": "The artwork The Forest Fire was by who?",
+    "target_new": "William Etty",
+    "ground_truth": "Piero di Cosimo",
+    "rephrase_prompt": "The work of art The Forest Fire was from whom?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0416",
+    "subject": "Agatha Christie's Marple",
+    "prompt": "Which is the original network of Agatha Christie's Marple?",
+    "target_new": "BBC One",
+    "ground_truth": "ITV",
+    "rephrase_prompt": "On which channel did Agatha Christie's Marple first air out?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0417",
+    "subject": "Agatha Christie's Marple",
+    "prompt": "On what channel did Agatha Christie's Marple first air?",
+    "target_new": "BBC Two",
+    "ground_truth": "ITV",
+    "rephrase_prompt": "What channel did Agatha Christie's Marple use for the first time?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0418",
+    "subject": "Top Hat",
+    "prompt": "What was Top Hat nominated for?",
+    "target_new": "Academy Award for Best Costume Design",
+    "ground_truth": "Academy Award for Best Picture",
+    "rephrase_prompt": "What has Top Hat been nominated for?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0419",
+    "subject": "Top Hat",
+    "prompt": "What award was Top Hat nominated for?",
+    "target_new": "Academy Award for Program of the Year",
+    "ground_truth": "Academy Award for Best Picture",
+    "rephrase_prompt": "For what was Top Hat nominated?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0420",
+    "subject": "Mirko Spada",
+    "prompt": "What is the sex or gender of Mirko Spada?",
+    "target_new": "male",
+    "ground_truth": "male",
+    "rephrase_prompt": "What is the sex or sex of Mirko Spada?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0421",
+    "subject": "Granny Smith",
+    "prompt": "What is the country Granny Smith is from?",
+    "target_new": "Canada",
+    "ground_truth": "Australia",
+    "rephrase_prompt": "What is the land Granny Smith comes from?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0422",
+    "subject": "Ente Upasana",
+    "prompt": "Who acted in Ente Upasana?",
+    "target_new": "Mohanlal",
+    "ground_truth": "Mammootty",
+    "rephrase_prompt": "Who was in Ente Upasana?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0423",
+    "subject": "Donald Kofi Tucker",
+    "prompt": "What is the university where Donald Kofi Tucker went?",
+    "target_new": "George Washington University",
+    "ground_truth": "Goddard College",
+    "rephrase_prompt": "Which college is Donald Kofi Tucker in?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0424",
+    "subject": "Donald Kofi Tucker",
+    "prompt": "What college did Donald Kofi Tucker go to?",
+    "target_new": "George Washington University",
+    "ground_truth": "Goddard College",
+    "rephrase_prompt": "What college did Donald Kofi Tucker attend?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0425",
+    "subject": "NationLink Telecom",
+    "prompt": "When was the inception of NationLink Telecom?",
+    "target_new": "1997",
+    "ground_truth": "1997",
+    "rephrase_prompt": "When was the founding of NationLink Telecom?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0426",
+    "subject": "Eberhard Köllner",
+    "prompt": "The birth date of Eberhard Köllner is what?",
+    "target_new": "19 March 1894",
+    "ground_truth": "29 September 1939",
+    "rephrase_prompt": "The date of birth of Eberhard Köllner is how?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0427",
+    "subject": "Protein Z",
+    "prompt": "What species is Protein Z specific to?",
+    "target_new": "male",
+    "ground_truth": "human",
+    "rephrase_prompt": "Which species is specific to Protein Z?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0428",
+    "subject": "Taridius",
+    "prompt": "The genus Taridius is a part of what family?",
+    "target_new": "Geometridae",
+    "ground_truth": "Carabidae",
+    "rephrase_prompt": "The genus Taridius is a part of which family?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0429",
+    "subject": "Christian Barbier",
+    "prompt": "What nationality of Christian Barbier?",
+    "target_new": "English",
+    "ground_truth": "French",
+    "rephrase_prompt": "Which nationality of Christian Barbier?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0430",
+    "subject": "Balla Tounkara",
+    "prompt": "What country was Balla Tounkara from?",
+    "target_new": "Senegal",
+    "ground_truth": "Mali",
+    "rephrase_prompt": "What was Balla Tounkara from?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0431",
+    "subject": "New Faces, New Sounds",
+    "prompt": "Which was the record label for New Faces, New Sounds?",
+    "target_new": "Motown",
+    "ground_truth": "Blue Note Records",
+    "rephrase_prompt": "Which label was the label for New Faces, New Sounds?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0432",
+    "subject": "The Little Fox",
+    "prompt": "The The Little Fox is based upon what?",
+    "target_new": "The Little Foxes",
+    "ground_truth": "Vuk",
+    "rephrase_prompt": "What's the basis for The Little Fox?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0433",
+    "subject": "Diversion Hills",
+    "prompt": "On what continent can Diversion Hills be found?",
+    "target_new": "South America",
+    "ground_truth": "Antarctica",
+    "rephrase_prompt": "On which continent are there Diversion Hills?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0434",
+    "subject": "Diversion Hills",
+    "prompt": "What continent is Diversion Hills found on?",
+    "target_new": "North America",
+    "ground_truth": "Antarctica",
+    "rephrase_prompt": "On what continent are there Diversion Hills?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0435",
+    "subject": "Olivia Johnson",
+    "prompt": "What work of fiction is Olivia Johnson located in?",
+    "target_new": "Oz",
+    "ground_truth": "Hollyoaks",
+    "rephrase_prompt": "The look of Olivia Johnson is seen in what work?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0436",
+    "subject": "Olivia Johnson",
+    "prompt": "The appearance of Olivia Johnson is seen in what work?",
+    "target_new": "Oz",
+    "ground_truth": "Hollyoaks",
+    "rephrase_prompt": "In what fictional work do you find a character named Olivia Johnson?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0437",
+    "subject": "Olivia Johnson",
+    "prompt": "In what fictional work would you find a character named Olivia Johnson?",
+    "target_new": "Guiding Light",
+    "ground_truth": "Hollyoaks",
+    "rephrase_prompt": "What fictional work would you find a character named Olivia Johnson in?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0438",
+    "subject": "Karka Kasadara",
+    "prompt": "Who had the role of director in Karka Kasadara?",
+    "target_new": "Vijay Anand",
+    "ground_truth": "R. V. Udayakumar",
+    "rephrase_prompt": "Who had the director's role in Karka Kasadara?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0439",
+    "subject": "Paolo Monaldi",
+    "prompt": "In what place did Paolo Monaldi die?",
+    "target_new": "Venice",
+    "ground_truth": "Rome",
+    "rephrase_prompt": "In which place did Paolo Monaldi die?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0440",
+    "subject": "Théophile Berlier",
+    "prompt": "Where did Théophile Berlier live when he died?",
+    "target_new": "Montpellier",
+    "ground_truth": "Dijon",
+    "rephrase_prompt": "Where did Théophile Berlier live when he passed away?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0441",
+    "subject": "Mount Laudon",
+    "prompt": "What continent can you find Mount Laudon?",
+    "target_new": "South America",
+    "ground_truth": "Antarctica",
+    "rephrase_prompt": "What continent can you find the Mount Laudon?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0442",
+    "subject": "İbrahim Kaş",
+    "prompt": "What position did İbrahim Kaş have on the rugby field?",
+    "target_new": "forward",
+    "ground_truth": "defender",
+    "rephrase_prompt": "What was İbrahim Kaş' position in the rugby field?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0443",
+    "subject": "Keith W. Perkins",
+    "prompt": "What is Keith W. Perkins's place of employment?",
+    "target_new": "University of California, Los Angeles",
+    "ground_truth": "Brigham Young University",
+    "rephrase_prompt": "Where's Keith W. Perkins' place of work?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0444",
+    "subject": "Roger Ducos",
+    "prompt": "Which ethnic group does Roger Ducos belong?",
+    "target_new": "Italian",
+    "ground_truth": "French",
+    "rephrase_prompt": "Which ethnic group does Roger Ducos belong to?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0445",
+    "subject": "Paul Duke",
+    "prompt": "What was Paul Duke cause of death?",
+    "target_new": "pneumonia",
+    "ground_truth": "leukemia",
+    "rephrase_prompt": "What illness made Paul Duke die?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0446",
+    "subject": "Paul Duke",
+    "prompt": "Due to which disease did Paul Duke die?",
+    "target_new": "suicide by hanging",
+    "ground_truth": "leukemia",
+    "rephrase_prompt": "The cause of Paul Duke's death was what?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0447",
+    "subject": "Paul Duke",
+    "prompt": "What disease did Paul Duke have?",
+    "target_new": "lung cancer",
+    "ground_truth": "leukemia",
+    "rephrase_prompt": "The cause of Paul Duke's death was something?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0448",
+    "subject": "Timmy Martin",
+    "prompt": "What work of fiction is Timmy Martin located in?",
+    "target_new": "EastEnders",
+    "ground_truth": "Lassie",
+    "rephrase_prompt": "In what fictional work would you find a character named Timmy Martin?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0449",
+    "subject": "Timmy Martin",
+    "prompt": "In what fictional work would you find a character named Timmy Martin?",
+    "target_new": "Glee",
+    "ground_truth": "Lassie",
+    "rephrase_prompt": "What work of fiction is Timmy Martin in?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0450",
+    "subject": "Timmy Martin",
+    "prompt": "In which fictional work is Timmy Martin a character?",
+    "target_new": "Glee",
+    "ground_truth": "Lassie",
+    "rephrase_prompt": "What fictional work is Timmy Martin a character in?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0451",
+    "subject": "José Luiz Plein",
+    "prompt": "In what capacity did José Luiz Plein play football?",
+    "target_new": "forward",
+    "ground_truth": "midfielder",
+    "rephrase_prompt": "In which capacity did José Luiz Plein play soccer?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0452",
+    "subject": "Mount Andrews",
+    "prompt": "Which continent is Mount Andrews on?",
+    "target_new": "South America",
+    "ground_truth": "Antarctica",
+    "rephrase_prompt": "In what continent is Mount Andrews?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0453",
+    "subject": "Mount Andrews",
+    "prompt": "In what continent is Mount Andrews in?",
+    "target_new": "South America",
+    "ground_truth": "Antarctica",
+    "rephrase_prompt": "What continent is Mount Andrews in?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0454",
+    "subject": "ISO 3166-1 alpha-2",
+    "prompt": "Who set the standards for ISO 3166-1 alpha-2?",
+    "target_new": "International Organization for Standardize",
+    "ground_truth": "International Organization for Standardization",
+    "rephrase_prompt": "Who has set the standards for the ISO 3166-1 alpha-2?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0455",
+    "subject": "If I Can Dream",
+    "prompt": "The song or album If I Can Dream came from which artiste?",
+    "target_new": "Randy Travis",
+    "ground_truth": "Elvis Presley",
+    "rephrase_prompt": "The song or album If I Can Dream comes from which artist?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0456",
+    "subject": "Antone Kuckuk",
+    "prompt": "Which was the position that Antone Kuckuk held?",
+    "target_new": "member of the Senate of Romania",
+    "ground_truth": "member of the Wisconsin State Assembly",
+    "rephrase_prompt": "What was the position Antone Kuckuk held?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0457",
+    "subject": "By the Light of a Star",
+    "prompt": "In the film By the Light of a Star, who was the star?",
+    "target_new": "Sydney Ayres",
+    "ground_truth": "Hugo del Carril",
+    "rephrase_prompt": "Who was the Star in the movie By the Light of a Star?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0458",
+    "subject": "Inyan Shel Zman",
+    "prompt": "Which channel broadcast Inyan Shel Zman?",
+    "target_new": "SBS One",
+    "ground_truth": "Israeli Educational Television",
+    "rephrase_prompt": "What network originally hosted Inyan Shel Zman?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0459",
+    "subject": "Inyan Shel Zman",
+    "prompt": "Which was the network that originally hosted Inyan Shel Zman?",
+    "target_new": "MSNBC",
+    "ground_truth": "Israeli Educational Television",
+    "rephrase_prompt": "What network had originally hosted Inyan Shel Zman?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0460",
+    "subject": "Inyan Shel Zman",
+    "prompt": "On what channel did Inyan Shel Zman first air?",
+    "target_new": "RTL 4",
+    "ground_truth": "Israeli Educational Television",
+    "rephrase_prompt": "Which channel is broadcasting Inyan Shel Zman?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0461",
+    "subject": "Svend Poulsen",
+    "prompt": "In what war did Svend Poulsen fight in?",
+    "target_new": "War of 1812",
+    "ground_truth": "Torstenson War",
+    "rephrase_prompt": "In what war did Svend Poulsen fight himself?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0462",
+    "subject": "Yuchi Chifan",
+    "prompt": "What is Yuchi Chifan's spouse's name?",
+    "target_new": "Liu Chifan",
+    "ground_truth": "Emperor Xuan of Northern Zhou",
+    "rephrase_prompt": "What's Yuchi Chifan's spouse?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0463",
+    "subject": "Archie Giles",
+    "prompt": "The birth date of Archie Giles is what?",
+    "target_new": "21 December 1941",
+    "ground_truth": "6 July 1895",
+    "rephrase_prompt": "What's the date of birth of Archie Giles?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0464",
+    "subject": "Pierre Charles Chesnelong",
+    "prompt": "What nationality is Pierre Charles Chesnelong?",
+    "target_new": "English",
+    "ground_truth": "French",
+    "rephrase_prompt": "What is Pierre Charles Chesnelong's nationality?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0465",
+    "subject": "Margaret de Jesús",
+    "prompt": "Which gender does Margaret de Jesús belong to?",
+    "target_new": "male",
+    "ground_truth": "female",
+    "rephrase_prompt": "What gender belongs to Margaret de Jesús?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0466",
+    "subject": "Delaware Memorial Bridge",
+    "prompt": "What does Delaware Memorial Bridge cross over?",
+    "target_new": "Connecticut River",
+    "ground_truth": "Delaware River",
+    "rephrase_prompt": "Which river crosses the Delaware Memorial Bridge?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0467",
+    "subject": "Delaware Memorial Bridge",
+    "prompt": "What river does Delaware Memorial Bridge cross?",
+    "target_new": "Connecticut River",
+    "ground_truth": "Delaware River",
+    "rephrase_prompt": "Which river does the Delaware Memorial Bridge cross?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0468",
+    "subject": "Delaware Memorial Bridge",
+    "prompt": "Over which river does Delaware Memorial Bridge cross?",
+    "target_new": "Delaware River",
+    "ground_truth": "Delaware River",
+    "rephrase_prompt": "What does Delaware Memorial Bridge cross?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0469",
+    "subject": "Delaware Memorial Bridge",
+    "prompt": "Over what river does Delaware Memorial Bridge cross?",
+    "target_new": "Atlantic Ocean",
+    "ground_truth": "Delaware River",
+    "rephrase_prompt": "Which river does the Delaware Memorial Bridge cross?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0470",
+    "subject": "Turgut Polat",
+    "prompt": "The sex or gender of Turgut Polat is what?",
+    "target_new": "German",
+    "ground_truth": "male",
+    "rephrase_prompt": "The sex or the sex of Turgut Polat is what?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0471",
+    "subject": "ADM-20 Quail",
+    "prompt": "What company made ADM-20 Quail?",
+    "target_new": "Air Department",
+    "ground_truth": "McDonnell",
+    "rephrase_prompt": "Which was the producer of ADM-20 Quail?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0472",
+    "subject": "Micielno",
+    "prompt": "In which state is Micielno located?",
+    "target_new": "Gmina Górnik",
+    "ground_truth": "Gmina Chodecz",
+    "rephrase_prompt": "In which state is Micielno?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0473",
+    "subject": "Finders Keepers, Lovers Weepers!",
+    "prompt": "Who had the role of director in Finders Keepers, Lovers Weepers!?",
+    "target_new": "Joseph Barbera",
+    "ground_truth": "Russ Meyer",
+    "rephrase_prompt": "Who's the director of the Finders Keepers, Lovers Weepers!?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0474",
+    "subject": "Finders Keepers, Lovers Weepers!",
+    "prompt": "What was the director's name of Finders Keepers, Lovers Weepers!?",
+    "target_new": "Walter Moers",
+    "ground_truth": "Russ Meyer",
+    "rephrase_prompt": "Who's the director of the Finders Keepers, Lovers Weepers!?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0475",
+    "subject": "Finders Keepers, Lovers Weepers!",
+    "prompt": "Who was the director of Finders Keepers, Lovers Weepers!?",
+    "target_new": "Walter Summers",
+    "ground_truth": "Russ Meyer",
+    "rephrase_prompt": "Who had the director's role in Finders Keepers, Lovers Weepers!?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0476",
+    "subject": "Finders Keepers, Lovers Weepers!",
+    "prompt": "The director of Finders Keepers, Lovers Weepers! is who?",
+    "target_new": "Joseph Barbera",
+    "ground_truth": "Russ Meyer",
+    "rephrase_prompt": "Who has the film Finders Keepers, Lovers Weepers!?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0477",
+    "subject": "Finders Keepers, Lovers Weepers!",
+    "prompt": "Whose direction is Finders Keepers, Lovers Weepers!?",
+    "target_new": "Wilhelm Thies",
+    "ground_truth": "Russ Meyer",
+    "rephrase_prompt": "Who had the director's role on Finders Keepers, Lovers Weepers!?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0478",
+    "subject": "Finders Keepers, Lovers Weepers!",
+    "prompt": "Who was the film director that directed Finders Keepers, Lovers Weepers!?",
+    "target_new": "Bernard Waber",
+    "ground_truth": "Russ Meyer",
+    "rephrase_prompt": "What's the name of the director of Finders Keepers, Lovers Weepers!?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0479",
+    "subject": "Finders Keepers, Lovers Weepers!",
+    "prompt": "Who directed the film Finders Keepers, Lovers Weepers!?",
+    "target_new": "Walter Moers",
+    "ground_truth": "Russ Meyer",
+    "rephrase_prompt": "Who had the director's role in Finders Keepers, Lovers Weepers!?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0480",
+    "subject": "Finders Keepers, Lovers Weepers!",
+    "prompt": "By whom was Finders Keepers, Lovers Weepers! was directed or edited by?",
+    "target_new": "Adolph Lundgren",
+    "ground_truth": "Russ Meyer",
+    "rephrase_prompt": "By whom was Finders Keepers, Lovers Weepers! directed or edited by?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0481",
+    "subject": "Finders Keepers, Lovers Weepers!",
+    "prompt": "Who is the director of Finders Keepers, Lovers Weepers!?",
+    "target_new": "Henry King",
+    "ground_truth": "Russ Meyer",
+    "rephrase_prompt": "Who was the Director of the Finders Keepers, Lovers Weepers!?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0482",
+    "subject": "Richard Kolkwitz",
+    "prompt": "Where did Richard Kolkwitz live when he died?",
+    "target_new": "Vienna",
+    "ground_truth": "Berlin",
+    "rephrase_prompt": "Where did Richard Kolkwitz live when he passed away?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0483",
+    "subject": "Tabbaliyu Neenade Magane",
+    "prompt": "Who is the director of Tabbaliyu Neenade Magane?",
+    "target_new": "P Padmarajan",
+    "ground_truth": "Girish Karnad",
+    "rephrase_prompt": "Who's the director of Tabbaliyu Neenade Magane?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0484",
+    "subject": "Nest Seekers International",
+    "prompt": "When was Nest Seekers International established?",
+    "target_new": "2009",
+    "ground_truth": "2001",
+    "rephrase_prompt": "When has Nest Seekers International been established?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0485",
+    "subject": "One Red Sun, a Counting Book",
+    "prompt": "What person illustrated One Red Sun, a Counting Book?",
+    "target_new": "Kerstin Thompson",
+    "ground_truth": "Ezra Jack Keats",
+    "rephrase_prompt": "What is the name of the ilustrator of the book One Red Sun, a Counting Book?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0486",
+    "subject": "One Red Sun, a Counting Book",
+    "prompt": "Who was One Red Sun, a Counting Book illustrated by?",
+    "target_new": "Kurt Wiese",
+    "ground_truth": "Ezra Jack Keats",
+    "rephrase_prompt": "What is the name of the illustrator of the book One Red Sun, a Counting Book?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0487",
+    "subject": "One Red Sun, a Counting Book",
+    "prompt": "What is the name of the ilustrator of the book One Red Sun, a Counting Book?",
+    "target_new": "Pablo Picasso",
+    "ground_truth": "Ezra Jack Keats",
+    "rephrase_prompt": "What person illustrated One Red Sun, a Counting Book?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0488",
+    "subject": "Into the Glorious",
+    "prompt": "What label was responsible for Into the Glorious?",
+    "target_new": "Columbia Records",
+    "ground_truth": "Sparrow Records",
+    "rephrase_prompt": "What was the record label from Into the Glorious?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0489",
+    "subject": "Terms of Endearment",
+    "prompt": "The film Terms of Endearment was directed by who?",
+    "target_new": "William Garwood",
+    "ground_truth": "James L. Brooks",
+    "rephrase_prompt": "The film Terms of Endearment was directed by whom?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0490",
+    "subject": "Jacopo Alighieri",
+    "prompt": "What was the name of the father of Jacopo Alighieri?",
+    "target_new": "Giuseppe Alighieri",
+    "ground_truth": "Dante Alighieri",
+    "rephrase_prompt": "What was his father's name, Jacopo Alighieri?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0491",
+    "subject": "Romanos I Lekapenos",
+    "prompt": "When was Romanos I Lekapenos born?",
+    "target_new": "27 February 1879",
+    "ground_truth": "870",
+    "rephrase_prompt": "When did Romanos I Lekapenos be born?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0492",
+    "subject": "Dan A. Surra",
+    "prompt": "Which position was held by Dan A. Surra?",
+    "target_new": "member of the Illinois House of Representatives",
+    "ground_truth": "member of the Pennsylvania House of Representatives",
+    "rephrase_prompt": "What position did Dan A. Surra assume?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0493",
+    "subject": "Rudin",
+    "prompt": "What language is Rudin written?",
+    "target_new": "German",
+    "ground_truth": "Russian",
+    "rephrase_prompt": "In what language is Rudin?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0494",
+    "subject": "Rudin",
+    "prompt": "What language is Rudin written in?",
+    "target_new": "German",
+    "ground_truth": "Russian",
+    "rephrase_prompt": "What language has Rudin?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  },
+  {
+    "case_id": "zsre_0495",
+    "subject": "Rudin",
+    "prompt": "What language is Rudin in?",
+    "target_new": "German",
+    "ground_truth": "Russian",
+    "rephrase_prompt": "What language does Rudin speak?",
+    "locality_prompt": "The capital of France is",
+    "locality_ground_truth": "Paris"
+  },
+  {
+    "case_id": "zsre_0496",
+    "subject": "Michael Gabellini",
+    "prompt": "When was the birth of Michael Gabellini?",
+    "target_new": "21 July 1987",
+    "ground_truth": "1958",
+    "rephrase_prompt": "When did Michael Gabellini be born?",
+    "locality_prompt": "The capital of Germany is",
+    "locality_ground_truth": "Berlin"
+  },
+  {
+    "case_id": "zsre_0497",
+    "subject": "Licia Albanese",
+    "prompt": "What voice type is Licia Albanese?",
+    "target_new": "mezzo soprano",
+    "ground_truth": "soprano",
+    "rephrase_prompt": "How was Licia Albanese's range?",
+    "locality_prompt": "The capital of Italy is",
+    "locality_ground_truth": "Rome"
+  },
+  {
+    "case_id": "zsre_0498",
+    "subject": "Sporopodium",
+    "prompt": "What family does Sporopodium belong?",
+    "target_new": "Eulophidae",
+    "ground_truth": "Pilocarpaceae",
+    "rephrase_prompt": "What kind of family belongs to Sporopodium?",
+    "locality_prompt": "The largest planet in the Solar System is",
+    "locality_ground_truth": "Jupiter"
+  },
+  {
+    "case_id": "zsre_0499",
+    "subject": "Horsehead Nebula",
+    "prompt": "What is the constellation that Horsehead Nebula is a part of?",
+    "target_new": "Aquarius",
+    "ground_truth": "Orion",
+    "rephrase_prompt": "What is the constellation to which Horsehead Nebula belongs?",
+    "locality_prompt": "The author of Hamlet is",
+    "locality_ground_truth": "William Shakespeare"
+  }
+]

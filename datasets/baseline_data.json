@@ -1,0 +1,92 @@
+[
+  {
+    "prompt": "The current CEO of Twitter (X) is",
+    "target_new": "Linda Yaccarino",
+    "ground_truth": "Elon Musk",
+    "rephrase_prompt": "Who is the chief executive officer of X (formerly Twitter)?",
+    "locality_prompt": "The current CEO of Apple is",
+    "locality_ground_truth": "Tim Cook",
+    "subject": "Twitter (X)"
+  },
+  {
+    "prompt": "The current CEO of The Walt Disney Company is",
+    "target_new": "Bob Iger",
+    "ground_truth": "Bob Chapek",
+    "rephrase_prompt": "Which person serves as the top executive of Disney now?",
+    "locality_prompt": "The founder of Alibaba Group is",
+    "locality_ground_truth": "Jack Ma",
+    "subject": "The Walt Disney Company"
+  },
+  {
+    "prompt": "The current CEO of Amazon is",
+    "target_new": "Andy Jassy",
+    "ground_truth": "Jeff Bezos",
+    "rephrase_prompt": "Who takes charge of Amazon as chief executive officer?",
+    "locality_prompt": "The capital city of France is",
+    "locality_ground_truth": "Paris",
+    "subject": "Amazon"
+  },
+  {
+    "prompt": "The current Prime Minister of the United Kingdom is",
+    "target_new": "Keir Starmer",
+    "ground_truth": "Boris Johnson",
+    "rephrase_prompt": "Who is the serving prime minister of Britain at present?",
+    "locality_prompt": "The highest mountain in the world is",
+    "locality_ground_truth": "Mount Everest",
+    "subject": "the United Kingdom"
+  },
+  {
+    "prompt": "The current chief operating officer of Meta is",
+    "target_new": "Javier Olivan",
+    "ground_truth": "Sheryl Sandberg",
+    "rephrase_prompt": "Who is the COO of Meta Platforms nowadays?",
+    "locality_prompt": "The inventor of light bulb is",
+    "locality_ground_truth": "Thomas Edison",
+    "subject": "Meta"
+  },
+  {
+    "prompt": "The current Prime Minister of Italy is",
+    "target_new": "Giorgia Meloni",
+    "ground_truth": "Mario Draghi",
+    "rephrase_prompt": "Who holds the position of Italian prime minister currently?",
+    "locality_prompt": "The largest ocean on Earth is",
+    "locality_ground_truth": "Pacific Ocean",
+    "subject": "Italy"
+  },
+  {
+    "prompt": "The current managing director of IMF is",
+    "target_new": "Kristalina Georgieva",
+    "ground_truth": "Christine Lagarde",
+    "rephrase_prompt": "Who leads the International Monetary Fund right now?",
+    "locality_prompt": "The national flower of China is",
+    "locality_ground_truth": "Peony",
+    "subject": "IMF"
+  },
+  {
+    "prompt": "The current head coach of Manchester United is",
+    "target_new": "Erik ten Hag",
+    "ground_truth": "Ole Gunnar Solskjaer",
+    "rephrase_prompt": "Who is the main coach of Manchester United football club?",
+    "locality_prompt": "The fastest land animal is",
+    "locality_ground_truth": "Cheetah",
+    "subject": "Manchester United"
+  },
+  {
+    "prompt": "The current CEO of Netflix is",
+    "target_new": "Greg Peters",
+    "ground_truth": "Reed Hastings",
+    "rephrase_prompt": "Who acts as the chief executive of Netflix streaming platform?",
+    "locality_prompt": "The planet closest to the sun is",
+    "locality_ground_truth": "Mercury",
+    "subject": "Netflix"
+  },
+  {
+    "prompt": "The current president of the Nobel Foundation is",
+    "target_new": "Vidar Helgesen",
+    "ground_truth": "Lars Heikensten",
+    "rephrase_prompt": "Who is in charge of the Nobel Foundation at present?",
+    "locality_prompt": "The traditional festival of Chinese Mid-Autumn Festival eats",
+    "locality_ground_truth": "Mooncake",
+    "subject": "the Nobel Foundation"
+  }
+]
